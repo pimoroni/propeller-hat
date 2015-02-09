@@ -74,44 +74,29 @@ Once downloaded, you can install it with:
 sudo dpkg -i propelleride-0.25.1-0-g5442b03-armhf.deb
 ```
 
-###Patching p1load and /dev/ttyAMA0 on the Pi
+###Turning off the Serial Terminal so you can talk to Propeller HAT
 
-At the moment a couple of tweaks are needed to make everything run smoothly on the Pi. 
+By default, the Raspberry Pi fires up a serial terminal on /dev/ttyAMA0. This is handy for debugging headless, but if you're using Propeller IDE and programming a Propeller HAT then you've likely got a monitor plugged in anyway!
 
-* /dev/ttyAMA0 is, by default, not visible in Propeller IDE
-* p1load needs to be run as root, and passed the -Dreset=gpio,17,0 command to reset PropellerHAT
-
-The first one is easy, and we'll make sure we've got the right permissions while we're at it:
+The serial terminal must be disabled so that we can communicate with Propeller HAT. Fortunately, raspi-config makes this easy:
 
 ```bash
-sudo usermod -a -G dialout pi
-sudo ln -s /dev/ttyAMA0 /dev/ttyUSB99
+sudo raspi-config
 ```
 
-To make the latter command permenant, you'll need to add it to /etc/rc.local so it looks something like this:
+Then navigate to Advanced Options, find the Serial option and disable it.
+
+![Raspberry Pi, disable Serial Terminal](images/propeller-ide-serial-terminal.png)
+
+###Making sure p1load can access your Raspberry Pi's GPIO pins
+
+We need p1load to run as root, so it can access the GPIO pin used for resetting Propeller HAT. These two commands should fix that up nicely:
 
 ```bash
-# Print the IP address
-_IP=$(hostname -I) || true
-if [ "$_IP" ]; then
-  printf "My IP address is %s\n" "$_IP"
-fi
-
-sudo ln -s /dev/ttyAMA0 /dev/ttyUSB99  # Add this line!
-
-exit 0
+sudo chown root /usr/share/propelleride/bin/p1load
+sudo chmod 4755 /usr/share/propelleride/bin/p1load
 ```
 
-Next we need to tackle p1load, we can do this with a simple wrapper script. It doesn't matter where you put this script, just as long as you can find it later. Save the following as p1load in your home directory:
-
-```bash
-#!/usr/bin/env bash
-echo "Loading: $@"
-sudo /usr/share/propelleride/bin/p1load -Dreset=gpio,17,0 "$@"
-```
-
-Now fire up Propeller IDE, navigate to Preferences and change the path for Loader to your shiny new wrapper script:
-
-![Propeller IDE loader path](images/propeller-ide-loader-path.png)
+p1load defaults to using GPIO pin 17, pulled low when built for the Raspberry Pi, so this is all we need to do. You're good to go!
 
 
