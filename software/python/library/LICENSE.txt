@@ -1,0 +1,29 @@
+Parallax Propeller code uploader
+Copyright (C) 2007 Remy Blank
+
+This file is part of PropTools.
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the
+Free Software Foundation, version 2.
+
+License: http://www.gnu.org/licenses/gpl-2.0.html
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software Foundation,
+Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+
+Modified January 2015 by Phil Howard <phil@pimoroni.com>
+Modifications include support for the Raspberry Pi, mainly a
+GPIO-based reset mechanism for GPIO-connected Propeller boards.
+
+Various tweaks to the code have also been made both for general clarity
+and to bring it closer to the Python PEP 8 style guidelines.
+
+I have also extensively commented appropriate areas and attempted
+to explain in sufficient detail the workings of the protocol.

@@ -1,0 +1,16 @@
+eagleUp/
+*.dmp
+i__pycache__/
+*.py[cod]
+dist/
+sdist/
+env/
+build/
+develop-eggs/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+pip-log.txt
+pip-delete-this-directory.txt

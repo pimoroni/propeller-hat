@@ -1,0 +1,6 @@
+include propellerhat.py
+include README.md
+include README.txt
+include CHANGELOG.txt
+include LICENSE.txt
+include setup.py
