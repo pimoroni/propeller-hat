@@ -102,12 +102,19 @@ sudo ln -s /dev/ttyAMA0 /dev/ttyUSB99  # Add this line!
 exit 0
 ```
 
-Next we need to tackle p1load, we can do this with a simple wrapper script. It doesn't matter where you put this script, just as long as you can find it later. Save the following as p1load in your home directory:
+Now we need p1load to run as root, so it can access the GPIO pin used for resetting Propeller HAT. These two commands should fix that up nicely:
+
+```bash
+sudo chown root /usr/share/propelleride/bin/p1load
+sudo chmod 4755 /usr/share/propelleride/bin/p1load
+```
+
+Next we need to tackle p1load's GPIO reset parameter, we can do this with a simple wrapper script. It doesn't matter where you put this script, just as long as you can find it later. Save the following as p1load in your home directory:
 
 ```bash
 #!/usr/bin/env bash
 echo "Loading: $@"
-sudo /usr/share/propelleride/bin/p1load -Dreset=gpio,17,0 "$@"
+/usr/share/propelleride/bin/p1load -Dreset=gpio,17,0 "$@"
 ```
 
 Now fire up Propeller IDE, navigate to Preferences and change the path for Loader to your shiny new wrapper script:
