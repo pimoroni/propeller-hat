@@ -2,15 +2,33 @@
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
+#include <signal.h>
 
 #include <wiringSerial.h>
 #include <wiringPi.h>
 
 #include <sys/stat.h>
 
-int main( int argc, char *argv[] ){
+int fd;
+FILE* fp;
+int i;
 
-  int fd;
+void cleanup(void){
+  serialPrintf(fd, "%cSDMP", 13);
+  for(i = 0; i < 25; i++){
+    serialPutchar(fd,0);
+  }
+  fclose(fp);
+  serialClose(fd);
+}
+
+void sigintHandler(int sig_num){
+  cleanup();
+  exit(1);
+}
+
+int main( int argc, char *argv[] ){
+  
   int playrate = 1000.0/50.0;
 
   fprintf(stdout,"SIDcog Serial Player\n");
@@ -22,10 +40,15 @@ int main( int argc, char *argv[] ){
   }
 
   if( argc > 2 ){
-    playrate = 1000.0 / atof(argv[2]);
+    float rate = atof(argv[2]);
+    if(rate > 460){
+      fprintf(stdout, "Warning, max play rate is 460 updates/sec\n");
+      rate = 460;
+    }
+    playrate = 1000.0 / rate;
   }
 
-  FILE* fp = fopen(argv[1], "rb");
+  fp = fopen(argv[1], "rb");
 
   fd = serialOpen("/dev/ttyAMA0",115200);
 
@@ -34,7 +57,7 @@ int main( int argc, char *argv[] ){
 
   char buf[26];
 
-  int i;
+  signal(SIGINT, sigintHandler);
 
   while(fread(buf, 1, 25, fp) == 25){
     /*
@@ -55,8 +78,7 @@ int main( int argc, char *argv[] ){
     delay(playrate);
   }
 
-  fclose(fp);
-  serialClose(fd);
+  cleanup();
 
   return 0;
 }
