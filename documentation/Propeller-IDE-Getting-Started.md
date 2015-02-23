@@ -90,12 +90,17 @@ Then navigate to Advanced Options, find the Serial option and disable it.
 
 ###Making sure p1load can access your Raspberry Pi's GPIO pins
 
-We need p1load to run as root, so it can access the GPIO pin used for resetting Propeller HAT. These two commands should fix that up nicely:
+We need p1load to run as root, so it can access the GPIO pin used for resetting Propeller HAT. 
+
+We've whipped up an install script that should get you started. See software/p1load and run:
+
 
 ```bash
-sudo chown root /usr/share/propelleride/bin/p1load
-sudo chmod 4755 /usr/share/propelleride/bin/p1load
+./install
 ```
+
+This will install the latest and greatest P1 Loader, bundled in this repo as a binary, and
+make sure it has the right permissions to do its thing.
 
 p1load defaults to using GPIO pin 17, pulled low when built for the Raspberry Pi, so this is all we need to do. You're good to go!
 

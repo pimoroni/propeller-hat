@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+LOAD_DIR=/usr/share/propelleride/bin/p1load
+
+sudo cp p1load $LOAD_DIR
+sudo chown root $LOAD_DIR
+sudo chmod 4755 $LOAD_DIR
+sudo ln -s $LOAD_DIR /usr/bin/p1load
