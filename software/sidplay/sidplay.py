@@ -6,7 +6,7 @@ import p1.loader
 
 print('Setting up Propeller HAT')
 l = p1.loader.Loader('/dev/ttyAMA0',17)
-l.upload(path='sidcogserial.binary',progress=p1.loader.print_status)
+l.upload(path='SIDcogSlave.binary',progress=p1.loader.print_status)
 time.sleep(0.1)
 
 # Comment the line below to enable the (slow) Python sid player

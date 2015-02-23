@@ -5,7 +5,6 @@ CON
 OBJ
   sid    : "SIDcog"
   serial : "FullDuplexSerial"
-  'pwm    : "PWM_32_v4"
   
 VAR
   byte registers[25]
@@ -14,7 +13,6 @@ PUB main | readyToUpdateRegisters, i
 
   sid.start( 0, 1 )
   sid.setVolume(1)
-  'pwm.Start
   serial.start( 31, 30, 0, 115200 )
 
   dira[2..9] := %11111111
@@ -30,6 +28,5 @@ PUB main | readyToUpdateRegisters, i
       registers[i] := serial.rx
     repeat i from 0 to 7
       outa[i+2] := registers[i] & 1
-      'pwm.duty(i+2,(registers[16+i]/255)*100,16666)
     sid.updateRegisters( @registers )
  

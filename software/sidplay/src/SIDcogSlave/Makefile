@@ -1,0 +1,2 @@
+all:
+	openspin SIDcogSlave.spin
