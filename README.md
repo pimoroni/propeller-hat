@@ -1,5 +1,6 @@
-Raspberry Pi Propeller HAT
-==========================
+![Propeller HAT](propeller-hat.jpg)
+
+Propeller HAT for Raspberry Pi.
 
 ## Repository Contents
 
