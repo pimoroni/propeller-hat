@@ -27,7 +27,7 @@ In Propeller IDE, each of these blocks will be displayed with its own distinct b
 the same kind will have alternating shades to differentiate them. This gives most SPIN examples their colourful and
 somewhat controversial looks:
 
-(I can SPIN a rainbow!)[images/i-can-spin-a-rainbow.png]
+![I can SPIN a rainbow!](images/i-can-spin-a-rainbow.png)
 
 The `CON` block is also used to declare some important settings such as the Clock Mode, and Crystal Frequency, which
 let your program know what sort of environment it's running in.
