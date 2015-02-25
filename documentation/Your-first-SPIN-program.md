@@ -33,7 +33,7 @@ CON
   _CLKMODE = xtal1 + pll16x
   _XINFREQ = 6_000_000
   
-  MY_LED_PIN = 0
+  MY_LED_PIN = 0 ' Use pin A0
   
 PUB main
   dira[MY_LED_PIN] := 1 ' Set the LED pin to an output
@@ -41,7 +41,7 @@ PUB main
   repeat ' Repeat forever
     OUTA[MY_LED_PIN] := 1 ' Turn the LED on
     waitcnt(cnt + clkfreq) ' Wait 1 second 
-                           ' cnt is the program counter, 
+                           ' cnt is the clock tick counter, 
                            ' clkfreq is the number of clock ticks in a second
     DIRA[MY_LED_PIN] := 0 ' Turn the LED off
 ```
@@ -51,15 +51,68 @@ PUB main
 These might look like complicated arcane magic at first, but they're really nothing to be worried about.
 On Propeller HAT these two lines will always be the same.
 
-_CLKMODE is being set with the value "xtal1 + pll16x" to state that we want to use the external crystal oscillator,
+`_CLKMODE` is being set with the value `xtal1 + pll16x` to state that we want to use the external crystal oscillator,
 and set the system clock to its value, multiplied by 16x using the PLL<sup>1</sup>.
 
-_XINFREQ is simply set with the frequency of the external clock. On Propeller HAT we use a 6Mhz crystal, so that's 6000000.
+`_XINFREQ` is simply set with the frequency of the external clock. On Propeller HAT we use a 6Mhz crystal, so that's 6000000.
 We use understores, which are ignored by SPIN when found in numbers, to make the big number read clearly at a glance.
+
+#Assigning "MY_LED_PIN"
+
+Propeller HAT has 30 user pins from 0 to 29, pins 30 and 31 are tied to your Pi's serial port for communication.
+
+To assign our LED constant we pick one of the available pins ( labelled A0 to A29 on the board ) and use the corresponding
+number. Because we're assigning a constant, we use the "Constant Assignment" operator which is simply "=":
+
+```spin
+MY_LED_PIN = 0 ' Use pin A0
+```
 
 ##DIRA and OUTA
 
-Behind the scenes of Arduino you'll find something very much like these.
+Behind the scenes of Arduino you'll find something very much like these. They are known as Registers. `DIRA` and `OUTA` both refer to physical, 32-bit locations onboard the Propeller chip itself and the values of each bit in these locations correspond directly to the Direction ( `DIRA` ) and Output Value ( `OUTA` ) of each hardware pin.
+
+Think of a register as 32 physical on-off switches which you can change from your code, since this is fundamentally what it is. 
+
+**Note:** In the Propeller world every single core or cog has its own `DIRA` and `OUTA` register, and the values of these are "OR'd" together to form the final direction and output values of each pin. If *any* cog tells a pin to output a 1, that pin will output a 1, and if any* cog sets a pin to an output that pin will be an output. Keep this in mind, or it'll almost certainly trip you up when you start using more than one core!
+
+Both DIR and OUT are suffixed with an A to allow for future expansion- the Propeller 2, for example, will most likely have two banks of output registers and introduce DIRB/OUTB.
+
+Here are some of the ways you can assign a state to the output and direction registers:
+
+```spin
+OUTA := %00000000_00000000_00000000_00000001
+OUTA[0..3] := %1000
+OUTA[0] := 1
+OUTA[0]~~       ' Set to 1, high
+OUTA[0]~        ' Set to 0, low
+```
+
+When setting any variable within SPIN you should use `:=` instead of `=` since `=` is the "Constant Assignment" operator
+and should only ever be used to assign constants.
+
+I don't use `OUTA[0]~~` or `OUTA[0]~` because I think they're unecessarily obtuse and confusing. `OUTA[0] := 1` and `OUTA[0] := 0` are longer, but easier to understand at a glance.
+
+##repeat
+
+SPIN uses a "repeat" command, this is similar to a for or while loop and there are many ways to change its behaviour which we'll cover in later examples. Right now we'll just use "repeat" on its own to create an infinite loop.
+
+Notice that the lines underneath repeat are indented? This is because, like Python, SPIN uses intentation as syntax (to convey meaning ). In this instance, the indented lines are the ones we want to be repeated. If you're a keen pythonista, you should also take note that there's no ":" on the end of "repeat".
+
+```spin
+repeat
+  ' Everything you want to be repeated
+  ' should be indented under the repeat command
+```
+
+##waitcnt
+
+SPIN's `waitcnt` command, meaning simply "Wait for Counter" is similar in purpose to Python's sleep but conceptually a little different. What you're actually doing here is waiting for the clock counter to reach a specific value. Normally you'll want to wait some multiple of seconds, and it just so happens that the value `clkfreq` always contains the number of clock ticks in a second. Multiply it by 10 and you get a 10 second wait, divide it by 10 and you get a tenth of a second wait, easy!
+
+```spin
+waitcnt(cnt + (clkfreq/10)) ' Wait 0.1 seconds
+waitcnt(cnt + (clkfreq*10)) ' Wait 10 seconds
+```
 
 #Further Reading
 
