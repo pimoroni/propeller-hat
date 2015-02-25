@@ -12,18 +12,18 @@ though, so we'll ignore it for now.
 ##What makes up a SPIN program?
 
 Every SPIN program consists of functions, variables, constants and data indicated by "Block Designators". These concepts
-are common to most programming languages, but SPIN is  strict about how and where they appear.
+are common to most programming languages, but SPIN is strict about how and where they appear.
 
 The block types in SPIN are:
 
-* CON - Declares a block of Constants, such as LED_PIN = 1
-* VAR - Declares a block of Variables, such as led_state := 0
-* OBJ - Declares a block of Objects, these load external code ( a bit like Python's import ) for you to use in your program
-* PUB - Declares a single public method- if you were loading your code as an object, you could call this method
-* PRI - Declares a single private method- this would be hidden when loading your code as an object
-* DAT - Declares a block of data, this is often used to store chunks of Propeller Assembly
+* `CON` - Declares a block of Constants, such as `LED_PIN = 1`
+* `VAR` - Declares a block of Variables, such as `led_state := 0`
+* `OBJ` - Declares a block of Objects, these load external code ( a bit like Python's import ) for you to use in your program
+* `PUB` - Declares a single public method- if you were loading your code as an object, you could call this method
+* `PRI` - Declares a single private method- this would be hidden when loading your code as an object
+* `DAT` - Declares a block of data, this is often used to store chunks of Propeller Assembly
 
-The CON block is also used to declare some important settings such as the Clock Mode, and Crystal Frequency, which
+The `CON` block is also used to declare some important settings such as the Clock Mode, and Crystal Frequency, which
 let your program know what sort of environment it's running in.
 
 A bare-bones SPIN program might look something like this:
@@ -95,7 +95,7 @@ I don't use `OUTA[0]~~` or `OUTA[0]~` because I think they're unecessarily obtus
 
 ##repeat
 
-SPIN uses a "repeat" command, this is similar to a for or while loop and there are many ways to change its behaviour which we'll cover in later examples. Right now we'll just use "repeat" on its own to create an infinite loop.
+SPIN uses a `repeat` command, this is similar to a for or while loop and there are many ways to change its behaviour which we'll cover in later examples. Right now we'll just use `repeat` on its own to create an infinite loop.
 
 Notice that the lines underneath repeat are indented? This is because, like Python, SPIN uses intentation as syntax (to convey meaning ). In this instance, the indented lines are the ones we want to be repeated. If you're a keen pythonista, you should also take note that there's no ":" on the end of "repeat".
 
