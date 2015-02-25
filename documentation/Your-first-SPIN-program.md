@@ -1,6 +1,6 @@
 #Your first SPIN Program
 
-##What is SPIN?
+###What is SPIN?
 
 SPIN ( get it? Spin a Propeller? ) is the language of the Propeller chip. It's actually unique to the Propeller,
 found nowhere else. Surprisingly it's also an interpreted language. This means it's not actually compiled into a set of
@@ -9,7 +9,7 @@ instructions that the Propeller chip understands natively, but is instead run in
 Propeller's native language is PASM, or "Propeller Assembly." It's a little beyond the scope of your Propeller HAT journey,
 though, so we'll ignore it for now.
 
-##What makes up a SPIN program?
+###What makes up a SPIN program?
 
 Every SPIN program consists of functions, variables, constants and data indicated by "Block Designators". These concepts
 are common to most programming languages, but SPIN is strict about how and where they appear.
@@ -22,6 +22,12 @@ The block types in SPIN are:
 * `PUB` - Declares a single public method- if you were loading your code as an object, you could call this method
 * `PRI` - Declares a single private method- this would be hidden when loading your code as an object
 * `DAT` - Declares a block of data, this is often used to store chunks of Propeller Assembly
+
+In Propeller IDE, each of these blocks will be displayed with its own distinct background colour, and adjacent blocks of
+the same kind will have alternating shades to differentiate them. This gives most SPIN examples their colourful and
+somewhat controversial looks:
+
+(I can SPIN a rainbow!)[images/i-can-spin-a-rainbow.png]
 
 The `CON` block is also used to declare some important settings such as the Clock Mode, and Crystal Frequency, which
 let your program know what sort of environment it's running in.
@@ -36,7 +42,7 @@ CON
   MY_LED_PIN = 0 ' Use pin A0
   
 PUB main
-  dira[MY_LED_PIN] := 1 ' Set the LED pin to an output
+  DIRA[MY_LED_PIN] := 1 ' Set the LED pin to an output
   
   repeat ' Repeat forever
     OUTA[MY_LED_PIN] := 1 ' Turn the LED on
@@ -46,7 +52,9 @@ PUB main
     DIRA[MY_LED_PIN] := 0 ' Turn the LED off
 ```
 
-##_CLKMODE and _XINFREQ
+Let's break this down step-by-step...
+
+####_CLKMODE and _XINFREQ
 
 These might look like complicated arcane magic at first, but they're really nothing to be worried about.
 On Propeller HAT these two lines will always be the same.
@@ -76,8 +84,6 @@ Think of a register as 32 physical on-off switches which you can change from you
 
 **Note:** In the Propeller world every single core or cog has its own `DIRA` and `OUTA` register, and the values of these are "OR'd" together to form the final direction and output values of each pin. If *any* cog tells a pin to output a 1, that pin will output a 1, and if any* cog sets a pin to an output that pin will be an output. Keep this in mind, or it'll almost certainly trip you up when you start using more than one core!
 
-Both DIR and OUT are suffixed with an A to allow for future expansion- the Propeller 2, for example, will most likely have two banks of output registers and introduce DIRB/OUTB.
-
 Here are some of the ways you can assign a state to the output and direction registers:
 
 ```spin
@@ -93,7 +99,7 @@ and should only ever be used to assign constants.
 
 I don't use `OUTA[0]~~` or `OUTA[0]~` because I think they're unecessarily obtuse and confusing. `OUTA[0] := 1` and `OUTA[0] := 0` are longer, but easier to understand at a glance.
 
-##repeat
+###repeat
 
 SPIN uses a `repeat` command, this is similar to a for or while loop and there are many ways to change its behaviour which we'll cover in later examples. Right now we'll just use `repeat` on its own to create an infinite loop.
 
@@ -105,7 +111,7 @@ repeat
   ' should be indented under the repeat command
 ```
 
-##waitcnt
+###waitcnt
 
 SPIN's `waitcnt` command, meaning simply "Wait for Counter" is similar in purpose to Python's sleep but conceptually a little different. What you're actually doing here is waiting for the clock counter to reach a specific value. Normally you'll want to wait some multiple of seconds, and it just so happens that the value `clkfreq` always contains the number of clock ticks in a second. Multiply it by 10 and you get a 10 second wait, divide it by 10 and you get a tenth of a second wait, easy!
 
