@@ -18,3 +18,7 @@ sudo python -im p1.pwm
 
 This loads p1.pwm, a PWM library for Propeller HAT which gives you 30 software PWM pins handled
 by the Propeller itself and uninterrupted by anything you might do on the Pi.
+
+#What next?
+
+* [Propeller IDE Getting Started](/documentation/Propeller-IDE-Getting-Started.md) - Learn how to install Propeller IDE
