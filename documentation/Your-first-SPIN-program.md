@@ -3,8 +3,8 @@
 ##What is SPIN?
 
 SPIN ( get it? Spin a Propeller? ) is the language of the Propeller chip. It's actually unique to the Propeller,
-found nowhere else. Surprisingly it's also an interpreted language. This means it's not actually turned into a set of
-instructions that the Propeller chip understands natively, but is actually run in a small interpreter inside the chip.
+found nowhere else. Surprisingly it's also an interpreted language. This means it's not actually compiled into a set of
+instructions that the Propeller chip understands natively, but is instead run in a tiny interpreter inside the chip<sup>1</sup>.
 
 Propeller's native language is PASM, or "Propeller Assembly." It's a little beyond the scope of your Propeller HAT journey,
 though, so we'll ignore it for now.
@@ -52,7 +52,7 @@ These might look like complicated arcane magic at first, but they're really noth
 On Propeller HAT these two lines will always be the same.
 
 `_CLKMODE` is being set with the value `xtal1 + pll16x` to state that we want to use the external crystal oscillator,
-and set the system clock to its value, multiplied by 16x using the PLL<sup>1</sup>.
+and set the system clock to its value, multiplied by 16x using the PLL<sup>2</sup>.
 
 `_XINFREQ` is simply set with the frequency of the external clock. On Propeller HAT we use a 6Mhz crystal, so that's 6000000.
 We use understores, which are ignored by SPIN when found in numbers, to make the big number read clearly at a glance.
@@ -116,4 +116,5 @@ waitcnt(cnt + (clkfreq*10)) ' Wait 10 seconds
 
 #Further Reading
 
-* <sup>1</sup> "PLL" stands for "Phase-locked Loop", read more about it here: http://en.wikipedia.org/wiki/Phase-locked_loop
+* <sup>1</sup> Watch a video about the difference between a compiler and interpreter: https://www.youtube.com/watch?v=_C5AHaS1mOA
+* <sup>2</sup> "PLL" stands for "Phase-locked Loop", read more about it here: http://en.wikipedia.org/wiki/Phase-locked_loop
