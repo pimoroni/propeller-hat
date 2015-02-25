@@ -57,12 +57,12 @@ and set the system clock to its value, multiplied by 16x using the PLL<sup>2</su
 `_XINFREQ` is simply set with the frequency of the external clock. On Propeller HAT we use a 6Mhz crystal, so that's 6000000.
 We use understores, which are ignored by SPIN when found in numbers, to make the big number read clearly at a glance.
 
-#Assigning "MY_LED_PIN"
+##Assigning "MY_LED_PIN"
 
 Propeller HAT has 30 user pins from 0 to 29, pins 30 and 31 are tied to your Pi's serial port for communication.
 
 To assign our LED constant we pick one of the available pins ( labelled A0 to A29 on the board ) and use the corresponding
-number. Because we're assigning a constant, we use the "Constant Assignment" operator which is simply "=":
+number. Because we're assigning a constant, we use the "Constant Assignment" operator which is simply `=`:
 
 ```spin
 MY_LED_PIN = 0 ' Use pin A0
