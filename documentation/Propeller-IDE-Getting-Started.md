@@ -104,4 +104,6 @@ make sure it has the right permissions to do its thing.
 
 p1load defaults to using GPIO pin 17, pulled low when built for the Raspberry Pi, so this is all we need to do. You're good to go!
 
+#What next?
 
+* [Your first SPIN program](/documentation/Your-first-SPIN-program.md)
