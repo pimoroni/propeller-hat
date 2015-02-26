@@ -12,11 +12,10 @@ VAR
 PUB main | readyToUpdateRegisters, i
 
   sid.start( 0, 1 )
-  sid.setVolume(1)
   serial.start( 31, 30, 0, 115200 )
 
-  dira[2..9] := %11111111
-  outa[2..9] := %11111111
+  dira[1..9] := %11111111
+  outa[1..9] := %11111111
   
   repeat
     readyToUpdateRegisters := false  
@@ -28,5 +27,4 @@ PUB main | readyToUpdateRegisters, i
       registers[i] := serial.rx
     repeat i from 0 to 7
       outa[i+2] := registers[i] & 1
-    sid.updateRegisters( @registers )
- 
+    sid.updateRegisters( @registers ) 

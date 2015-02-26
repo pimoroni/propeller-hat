@@ -31,7 +31,7 @@ classifiers = ['Development Status :: 5 - Production/Stable',
                'Topic :: System :: Hardware']
 
 setup(name		= 'p1',
-	version		= '1.0',
+	version		= '1.0.1',
 	author		= 'Philip Howard',
 	author_email	= 'phil@pimoroni.com',
 	description	= 'Parallax Propeller software uploader.',

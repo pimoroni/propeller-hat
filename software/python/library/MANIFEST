@@ -5,5 +5,9 @@ README.md
 README.txt
 setup.py
 p1/__init__.py
+p1/__init__.pyc
 p1/io.py
 p1/loader.py
+p1/loader.pyc
+p1/pwm.py
+p1/serialio.py
