@@ -50,6 +50,7 @@ PUB main
                            ' cnt is the clock tick counter, 
                            ' clkfreq is the number of clock ticks in a second
     DIRA[MY_LED_PIN] := 0 ' Turn the LED off
+    waitcnt(cnt + clkfreq) ' Wait 1 second 
 ```
 
 Let's break this down step-by-step...
