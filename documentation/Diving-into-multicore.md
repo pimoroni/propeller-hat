@@ -10,6 +10,8 @@ Well, fortunately, it's really not all that hard.
 In the world of Propeller, where almost everything is a pun based on the name of the chip, you'll often find the cores
 referred to as "cogs". The Propeller has 8 cogs, and ( wait for it... ) a "hub".
 
+![Propeller HUB and Cog Diagram](images/propeller-hub-cog-diagram.png)
+
 ####The Hub
 
 The Hub is the central controller of the Propeller, it houses the lion's share of the chips memory/storage - 8192, 32-bit
