@@ -66,7 +66,7 @@ and set the system clock to its value, multiplied by 16x using the PLL<sup>2</su
 `_XINFREQ` is simply set with the frequency of the external clock. On Propeller HAT we use a 6Mhz crystal, so that's 6000000.
 We use understores, which are ignored by SPIN when found in numbers, to make the big number read clearly at a glance.
 
-##Assigning "MY_LED_PIN"
+####Assigning "MY_LED_PIN"
 
 Propeller HAT has 30 user pins from 0 to 29, pins 30 and 31 are tied to your Pi's serial port for communication.
 
@@ -77,7 +77,7 @@ number. Because we're assigning a constant, we use the "Constant Assignment" ope
 MY_LED_PIN = 0 ' Use pin A0
 ```
 
-##DIRA and OUTA
+####DIRA and OUTA
 
 Behind the scenes of Arduino you'll find something very much like these. They are known as Registers. `DIRA` and `OUTA` both refer to physical, 32-bit locations onboard the Propeller chip itself and the values of each bit in these locations correspond directly to the Direction ( `DIRA` ) and Output Value ( `OUTA` ) of each hardware pin.
 
@@ -100,7 +100,7 @@ and should only ever be used to assign constants.
 
 I don't use `OUTA[0]~~` or `OUTA[0]~` because I think they're unecessarily obtuse and confusing. `OUTA[0] := 1` and `OUTA[0] := 0` are longer, but easier to understand at a glance.
 
-###repeat
+####repeat
 
 SPIN uses a `repeat` command, this is similar to a for or while loop and there are many ways to change its behaviour which we'll cover in later examples. Right now we'll just use `repeat` on its own to create an infinite loop.
 
@@ -112,7 +112,7 @@ repeat
   ' should be indented under the repeat command
 ```
 
-###waitcnt
+####waitcnt
 
 SPIN's `waitcnt` command, meaning simply "Wait for Counter" is similar in purpose to Python's sleep but conceptually a little different. What you're actually doing here is waiting for the clock counter to reach a specific value. Normally you'll want to wait some multiple of seconds, and it just so happens that the value `clkfreq` always contains the number of clock ticks in a second. Multiply it by 10 and you get a 10 second wait, divide it by 10 and you get a tenth of a second wait, easy!
 
