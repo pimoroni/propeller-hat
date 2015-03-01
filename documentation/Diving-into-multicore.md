@@ -15,7 +15,7 @@ longs ( also known as 32kb or 32,768 bytes ). The Hub's job is to dish out tasks
 memory and make sure they don't fight over resources or tread on each other's toes.
 
 In other words, the Hub is the boss! What it doesn't have, however, is the ability to run code. The Hub sits in its tiny
-silicone throne and dishes out commands, but it can't execute any itself. The Hub relies wholly and totally on the Cogs to carry
+silicon throne and dishes out commands, but it can't execute any itself. The Hub relies wholly and totally on the Cogs to carry
 out their instructions and only gets involved when they need to communicate, share data or receive new sets of instructions.
 
 The Hub also has some other fancy features, such as configuration registers and lock bits- we won't worry about those yet!
