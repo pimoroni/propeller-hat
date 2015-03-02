@@ -126,6 +126,13 @@ If you've ever come across the term "stack overflow", it's what happens when an 
 space than there has been allocated for it- this means it'll try and store things in memory locations after the
 stack which have potentially been reserved for something else.
 
+#Wiring up your Propeller HAT
+
+To see the result of this code, you'll need a couple of LEDs plugged into outputs A0 and A1, like so:
+
+![Propeller Multicore Layout](images/layout-diving-into-multicore.png)
+
+
 #Further Reading
 
 * <sup>1</sup> A little more detail about Cogs: http://www.parallax.com/propeller/qna/Default.htm#QnaTopics/QnaCogs.htm
