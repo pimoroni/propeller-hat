@@ -64,16 +64,16 @@ PUB main
     waitcnt(cnt + clkfreq)  ' Wait 1 second 
                             ' cnt is the clock tick counter, 
                             ' clkfreq is the number of clock ticks in a second
-    DIRA[MY_LED_PIN] := 0   ' Turn the LED MY_LED_PIN
+    OUTA[MY_LED_PIN] := 0   ' Turn the LED MY_LED_PIN
     waitcnt(cnt + clkfreq)  ' Wait 1 second
 
 PUB blink_second_pin
-  DIRA[SECOND_PIN] = 1
+  DIRA[SECOND_PIN] := 1
   
   repeat
     OUTA[SECOND_PIN] := 1    ' Turn second LED on
     waitcnt(cnt + clkfreq/2) ' Wait half a second
-    DIRA[SECOND_PIN] := 0    ' Turn second LED off
+    OUTA[SECOND_PIN] := 0    ' Turn second LED off
     waitcnt(cnt + clkfreq/2) ' Wait half a second
 ```
 
