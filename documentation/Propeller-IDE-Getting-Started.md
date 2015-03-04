@@ -47,11 +47,11 @@ Add the repository key.
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key 2578B775
 ```
 
-And finally update and install Qt5 and its dependencies.
+And finally update and install Qt5 and its dependencies, plus libftdi1 for the loader.
 
 ```bash
 sudo apt-get update
-sudo apt-get install qt5-default qt5-qmake libegl1-mesa libgles2-mesa
+sudo apt-get install qt5-default qt5-qmake libegl1-mesa libgles2-mesa libftdi1
 ```
 
 ###Installing Propeller IDE
