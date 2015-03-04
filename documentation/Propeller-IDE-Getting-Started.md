@@ -92,17 +92,35 @@ Then navigate to Advanced Options, find the Serial option and disable it.
 
 We need p1load to run as root, so it can access the GPIO pin used for resetting Propeller HAT. 
 
-We've whipped up an install script that should get you started. See software/p1load and run:
+We've whipped up an install script that should get you started. 
 
+First, you'll need to clone this repository if you haven't already:
 
 ```bash
+git clone https://github.com/pimoroni/propeller-hat
+```
+
+Then cd to software/p1load and run ./install:
+
+```bash
+cd propeller-hat/software/p1load
 ./install
 ```
 
 This will install the latest and greatest P1 Loader, bundled in this repo as a binary, and
 make sure it has the right permissions to do its thing.
 
-p1load defaults to using GPIO pin 17, pulled low when built for the Raspberry Pi, so this is all we need to do. You're good to go!
+p1load defaults to using GPIO pin 17, pulled low when built for the Raspberry Pi, so this is all we need to do. You're good to go! Uploading code is as simple as:
+
+```bash
+p1load my-binary-file.binary
+```
+
+And to compile a SPIN file to a binary outside of the IDE, you can:
+
+```bash
+openspin my-spin-file.spin
+```
 
 #What next?
 
