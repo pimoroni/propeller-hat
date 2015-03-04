@@ -65,13 +65,56 @@ The second parameter in this instance becomes the read-only parameter passed int
 single number, a complicated 32-bits long bitfield, or just give it the memory address for a handful of parameters
 stored in the Hub. This is all far too advanced for our first blink, though, so we'll stick with 0.
 
-####DAT
+```spin
+DAT
+```
 
 All PASM is stored within the DAT section of its parent SPIN program. This is the easiest place to store PASM source
 which everyone can see and modify, but it's not the only way. You could use an array of longs to store
 compiled PASM instructions, or you could create PASM instructions on the fly ( please don't! for your own sanity! ).
 
-####"org 0"
+```spin
+org 0
+```
 
 This is some PASM copypasta that you'll find at the top of most, if not all, blocks of PASM code in some form or 
 another. It simply states that the following PASM code should start at Cog RAM addr 0.
+
+```spin
+blink   mov     dira,   Pin
+```
+
+There's a lot going on in this line, but it's easy enough to break down.
+
+The `blink` part is a label, this is a little note to the compiler telling it that we want to keep track of this
+point in the program so we can find it later. This label can be passed into `cognew` to tell it where to locate our PASM. It can also be jumped to in PASM itself, you'll see this later.
+
+Next comes the actual instruction: `mov dira, Pin`. The `mov` part is a simple mnemonic, a text name for a numerical
+instruction that the Propeller can understand. If you hadn't guessed, it means "move" although it actually copies.
+
+The rest of the instruction is made up of our destination, `dira` which is the address ( not the value ) of the
+DIRA register, the very same one we use in SPIN. And, finally, the address of our source `Pin` which is a 32bit integer containing the pin mask we want to toggle.
+
+So this instruction is telling the Propeller to `mov` the value of memory location `Pin` into register `dira`. Well,
+ copy, since the Pin value remains unchanged.
+
+```spin
+rdlong  Delay,  #0
+```
+
+Next up is a Hub access instruction. Propeller Assembly includes special instructions for accessing Hub memory.
+This particular one, `rdlong`, reads a long ( a 32bit integer ) into its target from a source memory location.
+
+In this instance `Delay` is our target, a long we've reserved for our use, and the source is `#0` which is a
+*literal* memory address. So, we're loading Delay from Hub memory location 0. This just so happens to be where the
+Propeller keeps the CLKFREQ value, which is the number of clock ticks in a second. Using this, we can create a 1sec
+delay later.
+
+```spin
+mov     Time,   cnt
+```
+
+Just like our earlier `mov` instruction, we're copying the value of one memory address or register into another.
+
+In this case we're priming `Time` with the value of the system counter, for which there's a handy shortcut `cnt`
+so you don't have to remember its numeric memory location.
