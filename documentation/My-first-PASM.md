@@ -65,6 +65,11 @@ The second parameter in this instance becomes the read-only parameter passed int
 single number, a complicated 32-bits long bitfield, or just give it the memory address for a handful of parameters
 stored in the Hub. This is all far too advanced for our first blink, though, so we'll stick with 0.
 
+####The Assembly
+
+The PASM code in this example is quite the monster, even for a simple Blink. We'll tackle it line by line and I'll
+try to explain everything to the nth degree. Grab a drink and a snack, and sit tight!
+
 ```spin
 DAT
 ```
@@ -192,3 +197,60 @@ And so on!
 The thing to remember here is that xor is operating upon the whole 32bit register, so `xor` is a really handy
 way to toggle a pin using a bit mask, without affecting the others.
 
+```spin
+jmp     #:loop
+```
+
+And now we're finally jumping back to the label we set earlier, completing the loop and resulting in the `xor`
+on our output register being run about once a second.
+
+You can `jmp` to any memory address you like, but using a label makes it much easier to keep track of where the 
+jump is going.
+
+```spin
+Pin     long    |< MY_LED_PIN
+```
+
+This line creates a new, long type variable called Pin which we're assiging with a bitmask decoded from our
+MY_LED_PIN constant. The decode operator "|<" will turn 1 into 0001, 2 into 0010, 3 into 0100 and so on.
+
+This is the bitmask we use when calling `xor` against the output register. Remember:
+
+* `0001 xor 0001 = 0000` ie: turns pin On
+* `0000 xor 0001 = 0001` ie: turns pin Off
+
+
+```spin
+Delay           res     1
+Time            res     1
+```
+
+These two lines reserve longs of memory using the `res` directive. We can reserve 1 or more longs, but since Time
+and Delay both fit into a single 32-bit integer we'll only use 1.
+
+`res` is a directive, not an instruction, this means it's evaluated by the compiler and never run as PASM. Upon
+evaluation it just leaves gaps in the Cog memory and gives them the friendly names, symbols, which we can refer
+to them by in our code.
+
+The symbols ( or labels ) Delay and Time don't exist as far as PASM is confirmed, they're just friendly names
+for us to re-use that represent memory addresses.
+
+In plain English, these commands mean "leave the next memory address empty and call it Delay so we can use it elsewhere".
+
+```spin
+fit
+```
+
+This final directive isn't essential, specially when we're dealing with such small amounts of PASM code, but it's
+useful to remember. `fit` is another instruction to the compiler, it simply asks "does all the PASM we've written
+actually fit into Cog RAM?"
+
+`fit` will generate a compiler error if we've written too much code to fit into a single Cog. At this point we'd
+need to either cut down the code by optimising it, or split its jobs over muliple Cogs.
+
+##Whew!
+
+Well, that was an explanation marathon. Go and cool off your brain for a minute, and then get ready to compile
+and run your code. For this example you can use the same layout we used in the SPIN blink example:
+
+![Propeller Blink Layout](images/layout-your-first-spin.png)
