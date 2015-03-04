@@ -18,7 +18,7 @@ p1.pwm.duty(pin, duty, freq)
 
 PWM the pin with a duty cycle of duty ( 0 to 100% ) at the defined frequency.
 
-The value for requency is calculated like so: 1/<Desired Frequency> * 1000 * 1000
+The value for requency is calculated like so: 1/Desired Frequency * 1000 * 1000
 
 So if you want 50Hz, it's 1/50 * 1000 * 1000, or 20,000, eg: `p1.pwm.duty(0, 50, 20000)`.
 
