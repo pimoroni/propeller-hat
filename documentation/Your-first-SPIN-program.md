@@ -127,6 +127,33 @@ To see the result of this code, you'll need an of LED plugged into outputs A0, l
 
 ![Propeller Multicore Layout](images/layout-your-first-spin.png)
 
+#Uploading the code
+
+To build and upload the code, you'll need either Propeller IDE on your desktop/laptop computer, or on your Raspberry Pi.
+
+On the Pi it should be as simple as hitting the "Run" arrow ( the arrow pointing to the right ) and it'll upload
+right onto your Propeller HAT.
+
+To upload a binary compiled on your computer, you should look into the folder where you saved your .spin file
+and upload the .binary you'll find alongside it to the Pi.
+
+If you have p1load installed you can flash this binary with:
+
+```bash
+p1load binary_file.binary
+```
+
+The default should ensure it gets uploaded to Propeller HAT and run.
+
+If you don't, you can use "p1.loader" in Python, like so:
+
+```bash
+sudo pip install p1
+sudo python -m p1.loader upload -g 17 binary_file.binary
+```
+
+You should see your LED blink!
+
 #Further Reading
 
 * <sup>1</sup> Watch a video about the difference between a compiler and interpreter: https://www.youtube.com/watch?v=_C5AHaS1mOA
