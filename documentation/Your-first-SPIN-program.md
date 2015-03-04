@@ -121,6 +121,12 @@ waitcnt(cnt + (clkfreq/10)) ' Wait 0.1 seconds
 waitcnt(cnt + (clkfreq*10)) ' Wait 10 seconds
 ```
 
+#Wiring up your Propeller HAT
+
+To see the result of this code, you'll need an of LED plugged into outputs A0, like so:
+
+![Propeller Multicore Layout](images/layout-your-first-spin.png)
+
 #Further Reading
 
 * <sup>1</sup> Watch a video about the difference between a compiler and interpreter: https://www.youtube.com/watch?v=_C5AHaS1mOA
