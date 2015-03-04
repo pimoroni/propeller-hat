@@ -132,10 +132,12 @@ To see the result of this code, you'll need an of LED plugged into outputs A0, l
 To build and upload the code, you'll need either Propeller IDE on your desktop/laptop computer, or on your Raspberry Pi.
 
 On the Pi it should be as simple as hitting the "Run" arrow ( the arrow pointing to the right ) and it'll upload
-right onto your Propeller HAT.
+right onto your Propeller HAT. If this doesn't work you should try p1load. When you compile/build your program in
+Propeller IDE it will generate a binary alongside the .spin file.
 
-To upload a binary compiled on your computer, you should look into the folder where you saved your .spin file
-and upload the .binary you'll find alongside it to the Pi.
+To flash a compiled binary you can use either p1load, supplied in this GitHub repository,
+or the Python p1.loader from pip. You can do this with a binary built on the Pi, or with one you've uploaded
+from your desktop/laptop computer.
 
 If you have p1load installed you can flash this binary with:
 
