@@ -24,7 +24,7 @@ sweep   mov         Addr,       par         ' Load parameter into Addr
         mov         C_Pin,      S_Pin       ' Start at the START_PIN
 
         rdlong      Delay,      #0          ' Read clkfreq ( ticks per second )
-        shr         Delay,      #5          ' Divide delay by 5
+        shr         Delay,      #4          ' Shift delay right 4 ( divide by 16 )
 
         mov         Time,       cnt         ' Read current system counter state
         add         Time,       #9
