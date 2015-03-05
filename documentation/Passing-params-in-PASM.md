@@ -18,7 +18,7 @@ CON
   _XINFREQ = 6_000_000
   
 VAR
-  byte MY_PIN_1, MY_PIN_2 ' These will appear next to each other in memory
+  long MY_PIN_1, MY_PIN_2 ' These will appear next to each other in memory
   
 PUB main
   MY_PIN_1 := |< 0		       ' Set our first pin to a bitmask for A0
@@ -28,9 +28,9 @@ PUB main
 DAT
         org         0
 blink   mov         addr,       par     ' Load our address from the boot param
-        rdbyte      Pn,         addr    ' Read the first pin number
-        add         addr,       #1      ' Increment addr by 1 byte
-        rdbyte      Pn2,        addr    ' Read the second pin number
+        rdlong      Pn,         addr    ' Read the first pin number
+        add         addr,       #4      ' Increment addr by 1 long ( 4 bytes )
+        rdlong      Pn2,        addr    ' Read the second pin number
         
         or          dira,       Pn	' Set up pins as outputs
 	or	    dira,	Pn2     ' It's good to do stuff while we're waiting
