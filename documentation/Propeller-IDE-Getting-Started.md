@@ -122,6 +122,14 @@ And to compile a SPIN file to a binary outside of the IDE, you can:
 openspin my-spin-file.spin
 ```
 
+###Making /dev/ttyAMA0 show up in Propeller IDE
+
+Until the next release of Propeller IDE you'll also need to apply this temporary fix to get /dev/ttyAMA0 to show up:
+
+```bash
+sudo ln -s /dev/ttyAMA0 /dev/ttyUSB99
+```
+
 #What next?
 
 * [Your first SPIN program](/documentation/Your-first-SPIN-program.md)
