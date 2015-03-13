@@ -1,0 +1,2405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="184.3px" height="160.2px" viewBox="0 0 184.3 160.2" enable-background="new 0 0 184.3 160.2" xml:space="preserve">
+<g id="copper1">
+	<g id="PinHeaderLeft">
+		<rect id="PI25_2_" x="21.2" y="128.7" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI24_2_" x="21.2" y="121.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="SCL_2_" x="21.3" y="56.8" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="MOSI_2_" x="21.3" y="64" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="MISO_2_" x="21.3" y="71.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="SCLK_2_" x="21.3" y="78.3" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="CE0_2_" x="21.3" y="85.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="CE1_2_" x="21.3" y="92.7" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI18_2_" x="21.3" y="99.9" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI22_2_" x="21.3" y="107.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI23_2_" x="21.3" y="114.3" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="SDA_2_" x="21.3" y="49.6" fill="#010202" width="2.8" height="2.8"/>
+	</g>
+	<g id="PinHeaderRight">
+		<rect id="POW5VR2_2_" x="160.3" y="128.7" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="POW5VR1_2_" x="160.3" y="121.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI13_2_" x="160.4" y="56.8" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI19_2_" x="160.4" y="64" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI26_2_" x="160.4" y="71.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI12_2_" x="160.4" y="78.3" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI16_2_" x="160.4" y="85.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI20_2_" x="160.4" y="92.7" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI21_2_" x="160.4" y="99.9" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="GNDR1_2_" x="160.4" y="107.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="GNDR2_2_" x="160.4" y="114.3" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI6_2_" x="160.4" y="49.6" fill="#010202" width="2.8" height="2.8"/>
+	</g>
+	<g id="PinHeaderTop">
+		<rect id="PA3_2_" x="79.8" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA2_2_" x="72.7" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA1_2_" x="65.5" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA0_2_" x="58.3" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="GNDT2_2_" x="51.2" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="GNDT1_2_" x="44" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="POW3VT3_2_" x="36.8" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="POW3VT2_2_" x="29.6" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="POW3VT1_2_" x="22.3" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA4_2_" x="87.1" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA13_2_" x="151.8" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA12_2_" x="144.6" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA11_2_" x="137.3" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA10_2_" x="130.3" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA9_2_" x="123" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA8_2_" x="115.8" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA7_2_" x="108.6" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA6_2_" x="101.4" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA5_2_" x="94.2" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA14_2_" x="158.9" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+	</g>
+	<g id="PinHeaderBottom">
+		<rect id="PA26_2_" x="79.8" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA27_2_" x="72.7" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA28_2_" x="65.5" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA29_2_" x="58.3" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="GNDB2_2_" x="51.2" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="GNDB1_2_" x="44" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="POW3VB3_2_" x="36.8" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="POW3VB2_2_" x="29.6" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="POW3VB1_2_" x="22.3" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA25_2_" x="87.1" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA16_2_" x="151.8" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA17_2_" x="144.6" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA18_2_" x="137.3" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA19_2_" x="130.3" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA20_2_" x="123" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA21_2_" x="115.8" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA22_2_" x="108.6" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA23_2_" x="101.4" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA24_2_" x="94.2" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA15_2_" x="158.9" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+	</g>
+	<g id="sockets_2_" transform="translate(-4.5, -9)">
+		<g id="A1pin_2_">
+			<circle fill="#383938" cx="39.2" cy="60" r="1.2"/>
+		</g>
+		<g id="B1pin_2_">
+			<circle fill="#383938" cx="39.2" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C1pin_2_">
+			<circle fill="#383938" cx="39.2" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D1pin_2_">
+			<circle fill="#383938" cx="39.2" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E1pin_2_">
+			<circle fill="#383938" cx="39.2" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A2pin_2_">
+			<circle fill="#383938" cx="46.4" cy="60" r="1.2"/>
+		</g>
+		<g id="B2pin_2_">
+			<circle fill="#383938" cx="46.4" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C2pin_2_">
+			<circle fill="#383938" cx="46.4" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D2pin_2_">
+			<circle fill="#383938" cx="46.4" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E2pin_2_">
+			<circle fill="#383938" cx="46.4" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A3pin_2_">
+			<circle fill="#383938" cx="53.6" cy="60" r="1.2"/>
+		</g>
+		<g id="B3pin_2_">
+			<circle fill="#383938" cx="53.6" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C3pin_2_">
+			<circle fill="#383938" cx="53.6" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D3pin_2_">
+			<circle fill="#383938" cx="53.6" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E3pin_2_">
+			<circle fill="#383938" cx="53.6" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A4pin_2_">
+			<circle fill="#383938" cx="60.8" cy="60" r="1.2"/>
+		</g>
+		<g id="B4pin_2_">
+			<circle fill="#383938" cx="60.8" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C4pin_2_">
+			<circle fill="#383938" cx="60.8" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D4pin_2_">
+			<circle fill="#383938" cx="60.8" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E4pin_2_">
+			<circle fill="#383938" cx="60.8" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A5pin_2_">
+			<circle fill="#383938" cx="68" cy="60" r="1.2"/>
+		</g>
+		<g id="B5pin_2_">
+			<circle fill="#383938" cx="68" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C5pin_2_">
+			<circle fill="#383938" cx="68" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D5pin_2_">
+			<circle fill="#383938" cx="68" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E5pin_2_">
+			<circle fill="#383938" cx="68" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A6pin_2_">
+			<circle fill="#383938" cx="75.2" cy="60" r="1.2"/>
+		</g>
+		<g id="B6pin_2_">
+			<circle fill="#383938" cx="75.2" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C6pin_2_">
+			<circle fill="#383938" cx="75.2" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D6pin_2_">
+			<circle fill="#383938" cx="75.2" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E6pin_2_">
+			<circle fill="#383938" cx="75.2" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A7pin_2_">
+			<circle fill="#383938" cx="82.4" cy="60" r="1.2"/>
+		</g>
+		<g id="B7pin_2_">
+			<circle fill="#383938" cx="82.4" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C7pin_2_">
+			<circle fill="#383938" cx="82.4" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D7pin_2_">
+			<circle fill="#383938" cx="82.4" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E7pin_2_">
+			<circle fill="#383938" cx="82.4" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A8pin_2_">
+			<circle fill="#383938" cx="89.6" cy="60" r="1.2"/>
+		</g>
+		<g id="B8pin_2_">
+			<circle fill="#383938" cx="89.6" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C8pin_2_">
+			<circle fill="#383938" cx="89.6" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D8pin_2_">
+			<circle fill="#383938" cx="89.6" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E8pin_2_">
+			<circle fill="#383938" cx="89.6" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A9pin_2_">
+			<circle fill="#383938" cx="96.8" cy="60" r="1.2"/>
+		</g>
+		<g id="B9pin_2_">
+			<circle fill="#383938" cx="96.8" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C9pin_2_">
+			<circle fill="#383938" cx="96.8" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D9pin_2_">
+			<circle fill="#383938" cx="96.8" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E9pin_2_">
+			<circle fill="#383938" cx="96.8" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A10pin_2_">
+			<circle fill="#383938" cx="104" cy="60" r="1.2"/>
+		</g>
+		<g id="B10pin_2_">
+			<circle fill="#383938" cx="104" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C10pin_2_">
+			<circle fill="#383938" cx="104" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D10pin_2_">
+			<circle fill="#383938" cx="104" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E10pin_2_">
+			<circle fill="#383938" cx="104" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A11pin_2_">
+			<circle fill="#383938" cx="111.2" cy="60" r="1.2"/>
+		</g>
+		<g id="B11pin_2_">
+			<circle fill="#383938" cx="111.2" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C11pin_2_">
+			<circle fill="#383938" cx="111.2" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D11pin_2_">
+			<circle fill="#383938" cx="111.2" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E11pin_2_">
+			<circle fill="#383938" cx="111.2" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A12pin_2_">
+			<circle fill="#383938" cx="118.4" cy="60" r="1.2"/>
+		</g>
+		<g id="B12pin_2_">
+			<circle fill="#383938" cx="118.4" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C12pin_2_">
+			<circle fill="#383938" cx="118.4" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D12pin_2_">
+			<circle fill="#383938" cx="118.4" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E12pin_2_">
+			<circle fill="#383938" cx="118.4" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A13pin_2_">
+			<circle fill="#383938" cx="125.6" cy="60" r="1.2"/>
+		</g>
+		<g id="B13pin_2_">
+			<circle fill="#383938" cx="125.6" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C13pin_2_">
+			<circle fill="#383938" cx="125.6" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D13pin_2_">
+			<circle fill="#383938" cx="125.6" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E13pin_2_">
+			<circle fill="#383938" cx="125.6" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A14pin_2_">
+			<circle fill="#383938" cx="132.8" cy="60" r="1.2"/>
+		</g>
+		<g id="B14pin_2_">
+			<circle fill="#383938" cx="132.8" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C14pin_2_">
+			<circle fill="#383938" cx="132.8" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D14pin_2_">
+			<circle fill="#383938" cx="132.8" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E14pin_2_">
+			<circle fill="#383938" cx="132.8" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A15pin_2_">
+			<circle fill="#383938" cx="140" cy="60" r="1.2"/>
+		</g>
+		<g id="B15pin_2_">
+			<circle fill="#383938" cx="140" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C15pin_2_">
+			<circle fill="#383938" cx="140" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D15pin_2_">
+			<circle fill="#383938" cx="140" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E15pin_2_">
+			<circle fill="#383938" cx="140" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A16pin_2_">
+			<circle fill="#383938" cx="147.2" cy="60" r="1.2"/>
+		</g>
+		<g id="B16pin_2_">
+			<circle fill="#383938" cx="147.2" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C16pin_2_">
+			<circle fill="#383938" cx="147.2" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D16pin_2_">
+			<circle fill="#383938" cx="147.2" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E16pin_2_">
+			<circle fill="#383938" cx="147.2" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A17pin_2_">
+			<circle fill="#383938" cx="154.4" cy="60" r="1.2"/>
+		</g>
+		<g id="B17pin_2_">
+			<circle fill="#383938" cx="154.4" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C17pin_2_">
+			<circle fill="#383938" cx="154.4" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D17pin_2_">
+			<circle fill="#383938" cx="154.4" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E17pin_2_">
+			<circle fill="#383938" cx="154.4" cy="88.8" r="1.2"/>
+		</g>
+		<g id="F1pin_2_">
+			<circle fill="#383938" cx="39.2" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G1pin_2_">
+			<circle fill="#383938" cx="39.2" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H1pin_2_">
+			<circle fill="#383938" cx="39.2" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I1pin_2_">
+			<circle fill="#383938" cx="39.2" cy="132" r="1.2"/>
+		</g>
+		<g id="J1pin_2_">
+			<circle fill="#383938" cx="39.2" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F2pin_2_">
+			<circle fill="#383938" cx="46.4" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G2pin_2_">
+			<circle fill="#383938" cx="46.4" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H2pin_2_">
+			<circle fill="#383938" cx="46.4" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I2pin_2_">
+			<circle fill="#383938" cx="46.4" cy="132" r="1.2"/>
+		</g>
+		<g id="J2pin_2_">
+			<circle fill="#383938" cx="46.4" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F3pin_2_">
+			<circle fill="#383938" cx="53.6" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G3pin_2_">
+			<circle fill="#383938" cx="53.6" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H3pin_2_">
+			<circle fill="#383938" cx="53.6" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I3pin_2_">
+			<circle fill="#383938" cx="53.6" cy="132" r="1.2"/>
+		</g>
+		<g id="J3pin_2_">
+			<circle fill="#383938" cx="53.6" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F4pin_2_">
+			<circle fill="#383938" cx="60.8" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G4pin_2_">
+			<circle fill="#383938" cx="60.8" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H4pin_2_">
+			<circle fill="#383938" cx="60.8" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I4pin_2_">
+			<circle fill="#383938" cx="60.8" cy="132" r="1.2"/>
+		</g>
+		<g id="J4pin_2_">
+			<circle fill="#383938" cx="60.8" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F5pin_2_">
+			<circle fill="#383938" cx="68" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G5pin_2_">
+			<circle fill="#383938" cx="68" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H5pin_2_">
+			<circle fill="#383938" cx="68" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I5pin_2_">
+			<circle fill="#383938" cx="68" cy="132" r="1.2"/>
+		</g>
+		<g id="J5pin_2_">
+			<circle fill="#383938" cx="68" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F6pin_2_">
+			<circle fill="#383938" cx="75.2" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G6pin_2_">
+			<circle fill="#383938" cx="75.2" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H6pin_2_">
+			<circle fill="#383938" cx="75.2" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I6pin_2_">
+			<circle fill="#383938" cx="75.2" cy="132" r="1.2"/>
+		</g>
+		<g id="J6pin_2_">
+			<circle fill="#383938" cx="75.2" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F7pin_2_">
+			<circle fill="#383938" cx="82.4" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G7pin_2_">
+			<circle fill="#383938" cx="82.4" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H7pin_2_">
+			<circle fill="#383938" cx="82.4" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I7pin_2_">
+			<circle fill="#383938" cx="82.4" cy="132" r="1.2"/>
+		</g>
+		<g id="J7pin_2_">
+			<circle fill="#383938" cx="82.4" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F8pin_2_">
+			<circle fill="#383938" cx="89.6" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G8pin_2_">
+			<circle fill="#383938" cx="89.6" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H8pin_2_">
+			<circle fill="#383938" cx="89.6" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I8pin_2_">
+			<circle fill="#383938" cx="89.6" cy="132" r="1.2"/>
+		</g>
+		<g id="J8pin_2_">
+			<circle fill="#383938" cx="89.6" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F9pin_2_">
+			<circle fill="#383938" cx="96.8" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G9pin_2_">
+			<circle fill="#383938" cx="96.8" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H9pin_2_">
+			<circle fill="#383938" cx="96.8" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I9pin_2_">
+			<circle fill="#383938" cx="96.8" cy="132" r="1.2"/>
+		</g>
+		<g id="J9pin_2_">
+			<circle fill="#383938" cx="96.8" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F10pin_2_">
+			<circle fill="#383938" cx="104" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G10pin_2_">
+			<circle fill="#383938" cx="104" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H10pin_2_">
+			<circle fill="#383938" cx="104" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I10pin_2_">
+			<circle fill="#383938" cx="104" cy="132" r="1.2"/>
+		</g>
+		<g id="J10pin_2_">
+			<circle fill="#383938" cx="104" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F11pin_2_">
+			<circle fill="#383938" cx="111.2" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G11pin_2_">
+			<circle fill="#383938" cx="111.2" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H11pin_2_">
+			<circle fill="#383938" cx="111.2" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I11pin_2_">
+			<circle fill="#383938" cx="111.2" cy="132" r="1.2"/>
+		</g>
+		<g id="J11pin_2_">
+			<circle fill="#383938" cx="111.2" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F12pin_2_">
+			<circle fill="#383938" cx="118.4" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G12pin_2_">
+			<circle fill="#383938" cx="118.4" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H12pin_2_">
+			<circle fill="#383938" cx="118.4" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I12pin_2_">
+			<circle fill="#383938" cx="118.4" cy="132" r="1.2"/>
+		</g>
+		<g id="J12pin_2_">
+			<circle fill="#383938" cx="118.4" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F13pin_2_">
+			<circle fill="#383938" cx="125.6" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G13pin_2_">
+			<circle fill="#383938" cx="125.6" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H13pin_2_">
+			<circle fill="#383938" cx="125.6" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I13pin_2_">
+			<circle fill="#383938" cx="125.6" cy="132" r="1.2"/>
+		</g>
+		<g id="J13pin_2_">
+			<circle fill="#383938" cx="125.6" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F14pin_2_">
+			<circle fill="#383938" cx="132.8" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G14pin_2_">
+			<circle fill="#383938" cx="132.8" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H14pin_2_">
+			<circle fill="#383938" cx="132.8" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I14pin_2_">
+			<circle fill="#383938" cx="132.8" cy="132" r="1.2"/>
+		</g>
+		<g id="J14pin_2_">
+			<circle fill="#383938" cx="132.8" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F15pin_2_">
+			<circle fill="#383938" cx="140" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G15pin_2_">
+			<circle fill="#383938" cx="140" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H15pin_2_">
+			<circle fill="#383938" cx="140" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I15pin_2_">
+			<circle fill="#383938" cx="140" cy="132" r="1.2"/>
+		</g>
+		<g id="J15pin_2_">
+			<circle fill="#383938" cx="140" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F16pin_2_">
+			<circle fill="#383938" cx="147.2" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G16pin_2_">
+			<circle fill="#383938" cx="147.2" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H16pin_2_">
+			<circle fill="#383938" cx="147.2" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I16pin_2_">
+			<circle fill="#383938" cx="147.2" cy="132" r="1.2"/>
+		</g>
+		<g id="J16pin_2_">
+			<circle fill="#383938" cx="147.2" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F17pin_2_">
+			<circle fill="#383938" cx="154.4" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G17pin_2_">
+			<circle fill="#383938" cx="154.4" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H17pin_2_">
+			<circle fill="#383938" cx="154.4" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I17pin_2_">
+			<circle fill="#383938" cx="154.4" cy="132" r="1.2"/>
+		</g>
+		<g id="J17pin_2_">
+			<circle fill="#383938" cx="154.4" cy="139.2" r="1.2"/>
+		</g>
+	</g>
+</g>
+<g id="copper0">
+	<g id="PinHeaderLeft_1_">
+		<rect id="PI25_1_" x="21.2" y="128.7" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI24_1_" x="21.2" y="121.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="SCL_1_" x="21.3" y="56.8" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="MOSI_1_" x="21.3" y="64" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="MISO_1_" x="21.3" y="71.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="SCLK_1_" x="21.3" y="78.3" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="CE0_1_" x="21.3" y="85.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="CE1_1_" x="21.3" y="92.7" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI18_1_" x="21.3" y="99.9" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI22_1_" x="21.3" y="107.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI23_1_" x="21.3" y="114.3" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="SDA_1_" x="21.3" y="49.6" fill="#010202" width="2.8" height="2.8"/>
+	</g>
+	<g id="PinHeaderRight_1_">
+		<rect id="POW5VR2_1_" x="160.3" y="128.7" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="POW5VR1_1_" x="160.3" y="121.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI13_1_" x="160.4" y="56.8" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI19_1_" x="160.4" y="64" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI26_1_" x="160.4" y="71.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI12_1_" x="160.4" y="78.3" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI16_1_" x="160.4" y="85.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI20_1_" x="160.4" y="92.7" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI21_1_" x="160.4" y="99.9" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="GNDR1_1_" x="160.4" y="107.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="GNDR2_1_" x="160.4" y="114.3" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PI6_1_" x="160.4" y="49.6" fill="#010202" width="2.8" height="2.8"/>
+	</g>
+	<g id="PinHeaderTop_1_">
+		<rect id="PA3_1_" x="79.8" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA2_1_" x="72.7" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA1_1_" x="65.5" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA0_1_" x="58.3" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="GNDT2_1_" x="51.2" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="GNDT1_1_" x="44" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="POW3VT3_1_" x="36.8" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="POW3VT2_1_" x="29.6" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="POW3VT1_1_" x="22.3" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA4_1_" x="87.1" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA13_1_" x="151.8" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA12_1_" x="144.6" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA11_1_" x="137.3" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA10_1_" x="130.3" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA9_1_" x="123" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA8_1_" x="115.8" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA7_1_" x="108.6" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA6_1_" x="101.4" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA5_1_" x="94.2" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA14_1_" x="158.9" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+	</g>
+	<g id="PinHeaderBottom_1_">
+		<rect id="PA26_1_" x="79.8" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA27_1_" x="72.7" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA28_1_" x="65.5" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA29_1_" x="58.3" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="GNDB2_1_" x="51.2" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="GNDB1_1_" x="44" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="POW3VB3_1_" x="36.8" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="POW3VB2_1_" x="29.6" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="POW3VB1_1_" x="22.3" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA25_1_" x="87.1" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA16_1_" x="151.8" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA17_1_" x="144.6" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA18_1_" x="137.3" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA19_1_" x="130.3" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA20_1_" x="123" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA21_1_" x="115.8" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA22_1_" x="108.6" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA23_1_" x="101.4" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA24_1_" x="94.2" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+		<rect id="PA15_1_" x="158.9" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+	</g>
+	<g id="sockets_1_" transform="translate(-4.5, -9)">
+		<g id="A1pin_1_">
+			<circle fill="#383938" cx="39.2" cy="60" r="1.2"/>
+		</g>
+		<g id="B1pin_1_">
+			<circle fill="#383938" cx="39.2" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C1pin_1_">
+			<circle fill="#383938" cx="39.2" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D1pin_1_">
+			<circle fill="#383938" cx="39.2" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E1pin_1_">
+			<circle fill="#383938" cx="39.2" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A2pin_1_">
+			<circle fill="#383938" cx="46.4" cy="60" r="1.2"/>
+		</g>
+		<g id="B2pin_1_">
+			<circle fill="#383938" cx="46.4" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C2pin_1_">
+			<circle fill="#383938" cx="46.4" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D2pin_1_">
+			<circle fill="#383938" cx="46.4" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E2pin_1_">
+			<circle fill="#383938" cx="46.4" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A3pin_1_">
+			<circle fill="#383938" cx="53.6" cy="60" r="1.2"/>
+		</g>
+		<g id="B3pin_1_">
+			<circle fill="#383938" cx="53.6" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C3pin_1_">
+			<circle fill="#383938" cx="53.6" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D3pin_1_">
+			<circle fill="#383938" cx="53.6" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E3pin_1_">
+			<circle fill="#383938" cx="53.6" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A4pin_1_">
+			<circle fill="#383938" cx="60.8" cy="60" r="1.2"/>
+		</g>
+		<g id="B4pin_1_">
+			<circle fill="#383938" cx="60.8" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C4pin_1_">
+			<circle fill="#383938" cx="60.8" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D4pin_1_">
+			<circle fill="#383938" cx="60.8" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E4pin_1_">
+			<circle fill="#383938" cx="60.8" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A5pin_1_">
+			<circle fill="#383938" cx="68" cy="60" r="1.2"/>
+		</g>
+		<g id="B5pin_1_">
+			<circle fill="#383938" cx="68" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C5pin_1_">
+			<circle fill="#383938" cx="68" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D5pin_1_">
+			<circle fill="#383938" cx="68" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E5pin_1_">
+			<circle fill="#383938" cx="68" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A6pin_1_">
+			<circle fill="#383938" cx="75.2" cy="60" r="1.2"/>
+		</g>
+		<g id="B6pin_1_">
+			<circle fill="#383938" cx="75.2" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C6pin_1_">
+			<circle fill="#383938" cx="75.2" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D6pin_1_">
+			<circle fill="#383938" cx="75.2" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E6pin_1_">
+			<circle fill="#383938" cx="75.2" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A7pin_1_">
+			<circle fill="#383938" cx="82.4" cy="60" r="1.2"/>
+		</g>
+		<g id="B7pin_1_">
+			<circle fill="#383938" cx="82.4" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C7pin_1_">
+			<circle fill="#383938" cx="82.4" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D7pin_1_">
+			<circle fill="#383938" cx="82.4" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E7pin_1_">
+			<circle fill="#383938" cx="82.4" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A8pin_1_">
+			<circle fill="#383938" cx="89.6" cy="60" r="1.2"/>
+		</g>
+		<g id="B8pin_1_">
+			<circle fill="#383938" cx="89.6" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C8pin_1_">
+			<circle fill="#383938" cx="89.6" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D8pin_1_">
+			<circle fill="#383938" cx="89.6" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E8pin_1_">
+			<circle fill="#383938" cx="89.6" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A9pin_1_">
+			<circle fill="#383938" cx="96.8" cy="60" r="1.2"/>
+		</g>
+		<g id="B9pin_1_">
+			<circle fill="#383938" cx="96.8" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C9pin_1_">
+			<circle fill="#383938" cx="96.8" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D9pin_1_">
+			<circle fill="#383938" cx="96.8" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E9pin_1_">
+			<circle fill="#383938" cx="96.8" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A10pin_1_">
+			<circle fill="#383938" cx="104" cy="60" r="1.2"/>
+		</g>
+		<g id="B10pin_1_">
+			<circle fill="#383938" cx="104" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C10pin_1_">
+			<circle fill="#383938" cx="104" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D10pin_1_">
+			<circle fill="#383938" cx="104" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E10pin_1_">
+			<circle fill="#383938" cx="104" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A11pin_1_">
+			<circle fill="#383938" cx="111.2" cy="60" r="1.2"/>
+		</g>
+		<g id="B11pin_1_">
+			<circle fill="#383938" cx="111.2" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C11pin_1_">
+			<circle fill="#383938" cx="111.2" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D11pin_1_">
+			<circle fill="#383938" cx="111.2" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E11pin_1_">
+			<circle fill="#383938" cx="111.2" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A12pin_1_">
+			<circle fill="#383938" cx="118.4" cy="60" r="1.2"/>
+		</g>
+		<g id="B12pin_1_">
+			<circle fill="#383938" cx="118.4" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C12pin_1_">
+			<circle fill="#383938" cx="118.4" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D12pin_1_">
+			<circle fill="#383938" cx="118.4" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E12pin_1_">
+			<circle fill="#383938" cx="118.4" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A13pin_1_">
+			<circle fill="#383938" cx="125.6" cy="60" r="1.2"/>
+		</g>
+		<g id="B13pin_1_">
+			<circle fill="#383938" cx="125.6" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C13pin_1_">
+			<circle fill="#383938" cx="125.6" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D13pin_1_">
+			<circle fill="#383938" cx="125.6" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E13pin_1_">
+			<circle fill="#383938" cx="125.6" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A14pin_1_">
+			<circle fill="#383938" cx="132.8" cy="60" r="1.2"/>
+		</g>
+		<g id="B14pin_1_">
+			<circle fill="#383938" cx="132.8" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C14pin_1_">
+			<circle fill="#383938" cx="132.8" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D14pin_1_">
+			<circle fill="#383938" cx="132.8" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E14pin_1_">
+			<circle fill="#383938" cx="132.8" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A15pin_1_">
+			<circle fill="#383938" cx="140" cy="60" r="1.2"/>
+		</g>
+		<g id="B15pin_1_">
+			<circle fill="#383938" cx="140" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C15pin_1_">
+			<circle fill="#383938" cx="140" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D15pin_1_">
+			<circle fill="#383938" cx="140" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E15pin_1_">
+			<circle fill="#383938" cx="140" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A16pin_1_">
+			<circle fill="#383938" cx="147.2" cy="60" r="1.2"/>
+		</g>
+		<g id="B16pin_1_">
+			<circle fill="#383938" cx="147.2" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C16pin_1_">
+			<circle fill="#383938" cx="147.2" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D16pin_1_">
+			<circle fill="#383938" cx="147.2" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E16pin_1_">
+			<circle fill="#383938" cx="147.2" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A17pin_1_">
+			<circle fill="#383938" cx="154.4" cy="60" r="1.2"/>
+		</g>
+		<g id="B17pin_1_">
+			<circle fill="#383938" cx="154.4" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C17pin_1_">
+			<circle fill="#383938" cx="154.4" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D17pin_1_">
+			<circle fill="#383938" cx="154.4" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E17pin_1_">
+			<circle fill="#383938" cx="154.4" cy="88.8" r="1.2"/>
+		</g>
+		<g id="F1pin_1_">
+			<circle fill="#383938" cx="39.2" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G1pin_1_">
+			<circle fill="#383938" cx="39.2" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H1pin_1_">
+			<circle fill="#383938" cx="39.2" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I1pin_1_">
+			<circle fill="#383938" cx="39.2" cy="132" r="1.2"/>
+		</g>
+		<g id="J1pin_1_">
+			<circle fill="#383938" cx="39.2" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F2pin_1_">
+			<circle fill="#383938" cx="46.4" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G2pin_1_">
+			<circle fill="#383938" cx="46.4" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H2pin_1_">
+			<circle fill="#383938" cx="46.4" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I2pin_1_">
+			<circle fill="#383938" cx="46.4" cy="132" r="1.2"/>
+		</g>
+		<g id="J2pin_1_">
+			<circle fill="#383938" cx="46.4" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F3pin_1_">
+			<circle fill="#383938" cx="53.6" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G3pin_1_">
+			<circle fill="#383938" cx="53.6" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H3pin_1_">
+			<circle fill="#383938" cx="53.6" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I3pin_1_">
+			<circle fill="#383938" cx="53.6" cy="132" r="1.2"/>
+		</g>
+		<g id="J3pin_1_">
+			<circle fill="#383938" cx="53.6" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F4pin_1_">
+			<circle fill="#383938" cx="60.8" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G4pin_1_">
+			<circle fill="#383938" cx="60.8" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H4pin_1_">
+			<circle fill="#383938" cx="60.8" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I4pin_1_">
+			<circle fill="#383938" cx="60.8" cy="132" r="1.2"/>
+		</g>
+		<g id="J4pin_1_">
+			<circle fill="#383938" cx="60.8" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F5pin_1_">
+			<circle fill="#383938" cx="68" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G5pin_1_">
+			<circle fill="#383938" cx="68" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H5pin_1_">
+			<circle fill="#383938" cx="68" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I5pin_1_">
+			<circle fill="#383938" cx="68" cy="132" r="1.2"/>
+		</g>
+		<g id="J5pin_1_">
+			<circle fill="#383938" cx="68" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F6pin_1_">
+			<circle fill="#383938" cx="75.2" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G6pin_1_">
+			<circle fill="#383938" cx="75.2" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H6pin_1_">
+			<circle fill="#383938" cx="75.2" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I6pin_1_">
+			<circle fill="#383938" cx="75.2" cy="132" r="1.2"/>
+		</g>
+		<g id="J6pin_1_">
+			<circle fill="#383938" cx="75.2" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F7pin_1_">
+			<circle fill="#383938" cx="82.4" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G7pin_1_">
+			<circle fill="#383938" cx="82.4" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H7pin_1_">
+			<circle fill="#383938" cx="82.4" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I7pin_1_">
+			<circle fill="#383938" cx="82.4" cy="132" r="1.2"/>
+		</g>
+		<g id="J7pin_1_">
+			<circle fill="#383938" cx="82.4" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F8pin_1_">
+			<circle fill="#383938" cx="89.6" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G8pin_1_">
+			<circle fill="#383938" cx="89.6" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H8pin_1_">
+			<circle fill="#383938" cx="89.6" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I8pin_1_">
+			<circle fill="#383938" cx="89.6" cy="132" r="1.2"/>
+		</g>
+		<g id="J8pin_1_">
+			<circle fill="#383938" cx="89.6" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F9pin_1_">
+			<circle fill="#383938" cx="96.8" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G9pin_1_">
+			<circle fill="#383938" cx="96.8" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H9pin_1_">
+			<circle fill="#383938" cx="96.8" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I9pin_1_">
+			<circle fill="#383938" cx="96.8" cy="132" r="1.2"/>
+		</g>
+		<g id="J9pin_1_">
+			<circle fill="#383938" cx="96.8" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F10pin_1_">
+			<circle fill="#383938" cx="104" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G10pin_1_">
+			<circle fill="#383938" cx="104" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H10pin_1_">
+			<circle fill="#383938" cx="104" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I10pin_1_">
+			<circle fill="#383938" cx="104" cy="132" r="1.2"/>
+		</g>
+		<g id="J10pin_1_">
+			<circle fill="#383938" cx="104" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F11pin_1_">
+			<circle fill="#383938" cx="111.2" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G11pin_1_">
+			<circle fill="#383938" cx="111.2" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H11pin_1_">
+			<circle fill="#383938" cx="111.2" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I11pin_1_">
+			<circle fill="#383938" cx="111.2" cy="132" r="1.2"/>
+		</g>
+		<g id="J11pin_1_">
+			<circle fill="#383938" cx="111.2" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F12pin_1_">
+			<circle fill="#383938" cx="118.4" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G12pin_1_">
+			<circle fill="#383938" cx="118.4" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H12pin_1_">
+			<circle fill="#383938" cx="118.4" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I12pin_1_">
+			<circle fill="#383938" cx="118.4" cy="132" r="1.2"/>
+		</g>
+		<g id="J12pin_1_">
+			<circle fill="#383938" cx="118.4" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F13pin_1_">
+			<circle fill="#383938" cx="125.6" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G13pin_1_">
+			<circle fill="#383938" cx="125.6" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H13pin_1_">
+			<circle fill="#383938" cx="125.6" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I13pin_1_">
+			<circle fill="#383938" cx="125.6" cy="132" r="1.2"/>
+		</g>
+		<g id="J13pin_1_">
+			<circle fill="#383938" cx="125.6" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F14pin_1_">
+			<circle fill="#383938" cx="132.8" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G14pin_1_">
+			<circle fill="#383938" cx="132.8" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H14pin_1_">
+			<circle fill="#383938" cx="132.8" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I14pin_1_">
+			<circle fill="#383938" cx="132.8" cy="132" r="1.2"/>
+		</g>
+		<g id="J14pin_1_">
+			<circle fill="#383938" cx="132.8" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F15pin_1_">
+			<circle fill="#383938" cx="140" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G15pin_1_">
+			<circle fill="#383938" cx="140" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H15pin_1_">
+			<circle fill="#383938" cx="140" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I15pin_1_">
+			<circle fill="#383938" cx="140" cy="132" r="1.2"/>
+		</g>
+		<g id="J15pin_1_">
+			<circle fill="#383938" cx="140" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F16pin_1_">
+			<circle fill="#383938" cx="147.2" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G16pin_1_">
+			<circle fill="#383938" cx="147.2" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H16pin_1_">
+			<circle fill="#383938" cx="147.2" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I16pin_1_">
+			<circle fill="#383938" cx="147.2" cy="132" r="1.2"/>
+		</g>
+		<g id="J16pin_1_">
+			<circle fill="#383938" cx="147.2" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F17pin_1_">
+			<circle fill="#383938" cx="154.4" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G17pin_1_">
+			<circle fill="#383938" cx="154.4" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H17pin_1_">
+			<circle fill="#383938" cx="154.4" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I17pin_1_">
+			<circle fill="#383938" cx="154.4" cy="132" r="1.2"/>
+		</g>
+		<g id="J17pin_1_">
+			<circle fill="#383938" cx="154.4" cy="139.2" r="1.2"/>
+		</g>
+	</g>
+</g>
+<path d="M175.8,160.2H8.5c-4.7,0-8.5-3.8-8.5-8.5V8.5C0,3.8,3.8,0,8.5,0h167.3c4.7,0,8.5,3.8,8.5,8.5v143.2
+	C184.3,156.4,180.4,160.2,175.8,160.2z M9.9,6C7.8,6,6,7.8,6,9.9s1.7,3.9,3.9,3.9s3.9-1.7,3.9-3.9S12.1,6,9.9,6z M174.3,6
+	c-2.2,0-3.9,1.7-3.9,3.9s1.7,3.9,3.9,3.9s3.9-1.7,3.9-3.9S176.4,6,174.3,6z M8.9,146.3c-2.2,0-3.9,1.7-3.9,3.9s1.7,3.9,3.9,3.9
+	s3.9-1.7,3.9-3.9S11.1,146.3,8.9,146.3z M173.3,146.3c-2.2,0-3.9,1.7-3.9,3.9s1.7,3.9,3.9,3.9s3.9-1.7,3.9-3.9
+	S175.4,146.3,173.3,146.3z"/>
+<rect x="26.5" y="4.8" fill="none" width="95" height="10"/>
+<text transform="matrix(1 0 0 1 26.5375 13.9051)" fill="#FFFFFF" font-family="'DroidSans'" font-size="12">PROPELLER HAT</text>
+<rect y="48.6" fill="none" width="18.1" height="89.8"/>
+<text transform="matrix(1 0 0 1 9.9969 52.5499)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">SDA</text>
+<text transform="matrix(1 0 0 1 10.8969 59.7499)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">SCL</text>
+<text transform="matrix(1 0 0 1 6.4969 66.9499)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">MOSI</text>
+<text transform="matrix(1 0 0 1 6.4969 74.1499)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">MISO</text>
+<text transform="matrix(1 0 0 1 7.6969 81.3499)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">SCLK</text>
+<text transform="matrix(1 0 0 1 10.5969 88.5499)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">CE0</text>
+<text transform="matrix(1 0 0 1 10.5969 95.7499)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">CE1</text>
+<text transform="matrix(1 0 0 1 10.5969 102.9499)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">#18</text>
+<text transform="matrix(1 0 0 1 10.5969 110.1499)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">#22</text>
+<text transform="matrix(1 0 0 1 10.5969 117.3499)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">#23</text>
+<text transform="matrix(1 0 0 1 10.5969 124.5499)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">#24</text>
+<text transform="matrix(1 0 0 1 10.5969 131.7499)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">#25</text>
+<rect x="166.7" y="48.6" fill="none" width="18.1" height="89.8"/>
+<text transform="matrix(1 0 0 1 166.7332 52.4442)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">#6</text>
+<text transform="matrix(1 0 0 1 166.7332 59.6442)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">#13</text>
+<text transform="matrix(1 0 0 1 166.7332 66.8442)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">#19</text>
+<text transform="matrix(1 0 0 1 166.7332 74.0442)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">#26</text>
+<text transform="matrix(1 0 0 1 166.7332 81.2442)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">#12</text>
+<text transform="matrix(1 0 0 1 166.7332 88.4442)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">#16</text>
+<text transform="matrix(1 0 0 1 166.7332 95.6442)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">#20</text>
+<text transform="matrix(1 0 0 1 166.7332 102.8442)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">#21</text>
+<text transform="matrix(1 0 0 1 166.7332 110.0442)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">GND</text>
+<text transform="matrix(1 0 0 1 166.7332 117.2442)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">GND</text>
+<text transform="matrix(1 0 0 1 166.7332 124.4442)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">5V</text>
+<text transform="matrix(1 0 0 1 166.7332 131.6442)" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">5V</text>
+<g id="PinHeaderLeft_2_">
+	<rect x="19" y="47.2" fill="#404040" width="7.2" height="86.7"/>
+	<rect id="PI25" x="21.2" y="128.7" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="25,127.7 24,128.7 24,131.5 25,132.5 	"/>
+	<polygon fill="#2B2B2A" points="25,132.5 24,131.5 21.2,131.5 20.1,132.5 	"/>
+	<polygon fill="#484848" points="20.1,132.5 21.2,131.5 21.2,128.7 20.1,127.7 	"/>
+	<polygon fill="#5A5A5A" points="20.1,127.6 21.2,128.7 24,128.7 25,127.6 	"/>
+	<rect id="PI24" x="21.2" y="121.5" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="25,120.5 24,121.5 24,124.3 25,125.3 	"/>
+	<polygon fill="#2B2B2A" points="25,125.3 24,124.3 21.2,124.3 20.1,125.3 	"/>
+	<polygon fill="#484848" points="20.1,125.3 21.2,124.3 21.2,121.5 20.1,120.5 	"/>
+	<polygon fill="#5A5A5A" points="20.1,120.5 21.2,121.5 24,121.5 25,120.5 	"/>
+	<rect id="SCL" x="21.3" y="56.8" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="25.1,55.8 24.1,56.8 24.1,59.6 25.1,60.6 	"/>
+	<polygon fill="#2B2B2A" points="25.1,60.6 24.1,59.6 21.3,59.6 20.2,60.6 	"/>
+	<polygon fill="#484848" points="20.2,60.6 21.3,59.6 21.3,56.8 20.2,55.8 	"/>
+	<polygon fill="#5A5A5A" points="20.2,55.7 21.3,56.8 24.1,56.8 25.1,55.7 	"/>
+	<rect id="MOSI" x="21.3" y="64" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="25.1,62.9 24.1,64 24.1,66.8 25.1,67.8 	"/>
+	<polygon fill="#2B2B2A" points="25.1,67.8 24.1,66.8 21.3,66.8 20.2,67.8 	"/>
+	<polygon fill="#484848" points="20.2,67.8 21.3,66.8 21.3,64 20.2,62.9 	"/>
+	<polygon fill="#5A5A5A" points="20.2,62.9 21.3,64 24.1,64 25.1,62.9 	"/>
+	<rect id="MISO" x="21.3" y="71.2" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="25.1,70.2 24.1,71.2 24.1,74 25.1,75 	"/>
+	<polygon fill="#2B2B2A" points="25.1,75 24.1,74 21.3,74 20.2,75 	"/>
+	<polygon fill="#484848" points="20.2,75 21.3,74 21.3,71.2 20.2,70.2 	"/>
+	<polygon fill="#5A5A5A" points="20.2,70.1 21.3,71.2 24.1,71.2 25.1,70.1 	"/>
+	<rect id="SCLK" x="21.3" y="78.3" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="25.1,77.3 24.1,78.3 24.1,81.1 25.1,82.1 	"/>
+	<polygon fill="#2B2B2A" points="25.1,82.1 24.1,81.1 21.3,81.1 20.2,82.1 	"/>
+	<polygon fill="#484848" points="20.2,82.1 21.3,81.1 21.3,78.3 20.2,77.3 	"/>
+	<polygon fill="#5A5A5A" points="20.2,77.2 21.3,78.3 24.1,78.3 25.1,77.2 	"/>
+	<rect id="CE0" x="21.3" y="85.5" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="25.1,84.5 24.1,85.5 24.1,88.3 25.1,89.3 	"/>
+	<polygon fill="#2B2B2A" points="25.1,89.3 24.1,88.3 21.3,88.3 20.2,89.3 	"/>
+	<polygon fill="#484848" points="20.2,89.3 21.3,88.3 21.3,85.5 20.2,84.5 	"/>
+	<polygon fill="#5A5A5A" points="20.2,84.4 21.3,85.5 24.1,85.5 25.1,84.4 	"/>
+	<rect id="CE1" x="21.3" y="92.7" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="25.1,91.7 24.1,92.7 24.1,95.5 25.1,96.5 	"/>
+	<polygon fill="#2B2B2A" points="25.1,96.5 24.1,95.5 21.3,95.5 20.2,96.5 	"/>
+	<polygon fill="#484848" points="20.2,96.5 21.3,95.5 21.3,92.7 20.2,91.7 	"/>
+	<polygon fill="#5A5A5A" points="20.2,91.6 21.3,92.7 24.1,92.7 25.1,91.6 	"/>
+	<rect id="PI18" x="21.3" y="99.9" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="25.1,98.9 24.1,99.9 24.1,102.7 25.1,103.7 	"/>
+	<polygon fill="#2B2B2A" points="25.1,103.7 24.1,102.7 21.3,102.7 20.2,103.7 	"/>
+	<polygon fill="#484848" points="20.2,103.7 21.3,102.7 21.3,99.9 20.2,98.9 	"/>
+	<polygon fill="#5A5A5A" points="20.2,98.8 21.3,99.9 24.1,99.9 25.1,98.8 	"/>
+	<rect id="PI22" x="21.3" y="107.1" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="25.1,106.1 24.1,107.1 24.1,109.9 25.1,110.9 	"/>
+	<polygon fill="#2B2B2A" points="25.1,110.9 24.1,109.9 21.3,109.9 20.2,110.9 	"/>
+	<polygon fill="#484848" points="20.2,110.9 21.3,109.9 21.3,107.1 20.2,106.1 	"/>
+	<polygon fill="#5A5A5A" points="20.2,106 21.3,107.1 24.1,107.1 25.1,106 	"/>
+	<rect id="PI23" x="21.3" y="114.3" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="25.1,113.2 24.1,114.3 24.1,117 25.1,118.1 	"/>
+	<polygon fill="#2B2B2A" points="25.1,118.1 24.1,117 21.3,117 20.2,118.1 	"/>
+	<polygon fill="#484848" points="20.2,118.1 21.3,117 21.3,114.3 20.2,113.2 	"/>
+	<polygon fill="#5A5A5A" points="20.2,113.2 21.3,114.3 24.1,114.3 25.1,113.2 	"/>
+	<rect id="SDA" x="21.3" y="49.6" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="25.1,48.6 24.1,49.6 24.1,52.4 25.1,53.4 	"/>
+	<polygon fill="#2B2B2A" points="25.1,53.4 24.1,52.4 21.3,52.4 20.2,53.4 	"/>
+	<polygon fill="#484848" points="20.2,53.4 21.3,52.4 21.3,49.6 20.2,48.6 	"/>
+	<polygon fill="#5A5A5A" points="20.2,48.6 21.3,49.6 24.1,49.6 25.1,48.6 	"/>
+</g>
+<g id="PinHeaderRight_2_">
+	<rect x="158.1" y="47.2" fill="#404040" width="7.2" height="86.7"/>
+	<rect id="POW5VR2" x="160.3" y="128.7" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="164.1,127.7 163.1,128.7 163.1,131.5 164.1,132.5 	"/>
+	<polygon fill="#2B2B2A" points="164.1,132.5 163.1,131.5 160.3,131.5 159.2,132.5 	"/>
+	<polygon fill="#484848" points="159.2,132.5 160.3,131.5 160.3,128.7 159.2,127.7 	"/>
+	<polygon fill="#5A5A5A" points="159.2,127.6 160.3,128.7 163.1,128.7 164.1,127.6 	"/>
+	<rect id="POW5VR1" x="160.3" y="121.5" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="164.1,120.5 163.1,121.5 163.1,124.3 164.1,125.3 	"/>
+	<polygon fill="#2B2B2A" points="164.1,125.3 163.1,124.3 160.3,124.3 159.2,125.3 	"/>
+	<polygon fill="#484848" points="159.2,125.3 160.3,124.3 160.3,121.5 159.2,120.5 	"/>
+	<polygon fill="#5A5A5A" points="159.2,120.5 160.3,121.5 163.1,121.5 164.1,120.5 	"/>
+	<rect id="PI13" x="160.4" y="56.8" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="164.2,55.8 163.2,56.8 163.2,59.6 164.2,60.6 	"/>
+	<polygon fill="#2B2B2A" points="164.2,60.6 163.2,59.6 160.4,59.6 159.3,60.6 	"/>
+	<polygon fill="#484848" points="159.3,60.6 160.4,59.6 160.4,56.8 159.3,55.8 	"/>
+	<polygon fill="#5A5A5A" points="159.3,55.7 160.4,56.8 163.2,56.8 164.2,55.7 	"/>
+	<rect id="PI19" x="160.4" y="64" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="164.2,62.9 163.2,64 163.2,66.8 164.2,67.8 	"/>
+	<polygon fill="#2B2B2A" points="164.2,67.8 163.2,66.8 160.4,66.8 159.3,67.8 	"/>
+	<polygon fill="#484848" points="159.3,67.8 160.4,66.8 160.4,64 159.3,62.9 	"/>
+	<polygon fill="#5A5A5A" points="159.3,62.9 160.4,64 163.2,64 164.2,62.9 	"/>
+	<rect id="PI26" x="160.4" y="71.2" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="164.2,70.2 163.2,71.2 163.2,74 164.2,75 	"/>
+	<polygon fill="#2B2B2A" points="164.2,75 163.2,74 160.4,74 159.3,75 	"/>
+	<polygon fill="#484848" points="159.3,75 160.4,74 160.4,71.2 159.3,70.2 	"/>
+	<polygon fill="#5A5A5A" points="159.3,70.1 160.4,71.2 163.2,71.2 164.2,70.1 	"/>
+	<rect id="PI12" x="160.4" y="78.3" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="164.2,77.3 163.2,78.3 163.2,81.1 164.2,82.1 	"/>
+	<polygon fill="#2B2B2A" points="164.2,82.1 163.2,81.1 160.4,81.1 159.3,82.1 	"/>
+	<polygon fill="#484848" points="159.3,82.1 160.4,81.1 160.4,78.3 159.3,77.3 	"/>
+	<polygon fill="#5A5A5A" points="159.3,77.2 160.4,78.3 163.2,78.3 164.2,77.2 	"/>
+	<rect id="PI16" x="160.4" y="85.5" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="164.2,84.5 163.2,85.5 163.2,88.3 164.2,89.3 	"/>
+	<polygon fill="#2B2B2A" points="164.2,89.3 163.2,88.3 160.4,88.3 159.3,89.3 	"/>
+	<polygon fill="#484848" points="159.3,89.3 160.4,88.3 160.4,85.5 159.3,84.5 	"/>
+	<polygon fill="#5A5A5A" points="159.3,84.4 160.4,85.5 163.2,85.5 164.2,84.4 	"/>
+	<rect id="PI20" x="160.4" y="92.7" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="164.2,91.7 163.2,92.7 163.2,95.5 164.2,96.5 	"/>
+	<polygon fill="#2B2B2A" points="164.2,96.5 163.2,95.5 160.4,95.5 159.3,96.5 	"/>
+	<polygon fill="#484848" points="159.3,96.5 160.4,95.5 160.4,92.7 159.3,91.7 	"/>
+	<polygon fill="#5A5A5A" points="159.3,91.6 160.4,92.7 163.2,92.7 164.2,91.6 	"/>
+	<rect id="PI21" x="160.4" y="99.9" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="164.2,98.9 163.2,99.9 163.2,102.7 164.2,103.7 	"/>
+	<polygon fill="#2B2B2A" points="164.2,103.7 163.2,102.7 160.4,102.7 159.3,103.7 	"/>
+	<polygon fill="#484848" points="159.3,103.7 160.4,102.7 160.4,99.9 159.3,98.9 	"/>
+	<polygon fill="#5A5A5A" points="159.3,98.8 160.4,99.9 163.2,99.9 164.2,98.8 	"/>
+	<rect id="GNDR1" x="160.4" y="107.1" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="164.2,106.1 163.2,107.1 163.2,109.9 164.2,110.9 	"/>
+	<polygon fill="#2B2B2A" points="164.2,110.9 163.2,109.9 160.4,109.9 159.3,110.9 	"/>
+	<polygon fill="#484848" points="159.3,110.9 160.4,109.9 160.4,107.1 159.3,106.1 	"/>
+	<polygon fill="#5A5A5A" points="159.3,106 160.4,107.1 163.2,107.1 164.2,106 	"/>
+	<rect id="GNDR2" x="160.4" y="114.3" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="164.2,113.2 163.2,114.3 163.2,117 164.2,118.1 	"/>
+	<polygon fill="#2B2B2A" points="164.2,118.1 163.2,117 160.4,117 159.3,118.1 	"/>
+	<polygon fill="#484848" points="159.3,118.1 160.4,117 160.4,114.3 159.3,113.2 	"/>
+	<polygon fill="#5A5A5A" points="159.3,113.2 160.4,114.3 163.2,114.3 164.2,113.2 	"/>
+	<rect id="PI6" x="160.4" y="49.6" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#383737" points="164.2,48.6 163.2,49.6 163.2,52.4 164.2,53.4 	"/>
+	<polygon fill="#2B2B2A" points="164.2,53.4 163.2,52.4 160.4,52.4 159.3,53.4 	"/>
+	<polygon fill="#484848" points="159.3,53.4 160.4,52.4 160.4,49.6 159.3,48.6 	"/>
+	<polygon fill="#5A5A5A" points="159.3,48.6 160.4,49.6 163.2,49.6 164.2,48.6 	"/>
+</g>
+<g id="PinHeaderTop_2_">
+	<rect x="20.2" y="32.3" fill="#404040" width="144" height="7.2"/>
+	<rect id="PA3" x="79.8" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="83.7,38.3 82.7,37.3 79.8,37.3 78.8,38.3 	"/>
+	<polygon fill="#484848" points="78.8,38.3 79.8,37.3 79.8,34.5 78.8,33.4 	"/>
+	<polygon fill="#5A5A5A" points="78.8,33.4 79.8,34.5 82.7,34.5 83.7,33.4 	"/>
+	<polygon fill="#383737" points="83.8,33.4 82.7,34.5 82.7,37.3 83.8,38.3 	"/>
+	<rect id="PA2" x="72.7" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="76.6,38.3 75.5,37.3 72.7,37.3 71.7,38.3 	"/>
+	<polygon fill="#484848" points="71.7,38.3 72.7,37.3 72.7,34.5 71.7,33.4 	"/>
+	<polygon fill="#5A5A5A" points="71.7,33.4 72.7,34.5 75.5,34.5 76.6,33.4 	"/>
+	<polygon fill="#383737" points="76.6,33.4 75.5,34.5 75.5,37.3 76.6,38.3 	"/>
+	<rect id="PA1" x="65.5" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="69.3,38.3 68.3,37.3 65.5,37.3 64.5,38.3 	"/>
+	<polygon fill="#484848" points="64.5,38.3 65.5,37.3 65.5,34.5 64.5,33.4 	"/>
+	<polygon fill="#5A5A5A" points="64.5,33.4 65.5,34.5 68.3,34.5 69.3,33.4 	"/>
+	<polygon fill="#383737" points="69.3,33.4 68.3,34.5 68.3,37.3 69.3,38.3 	"/>
+	<rect id="PA0" x="58.3" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="62.2,38.3 61.2,37.3 58.4,37.3 57.4,38.3 	"/>
+	<polygon fill="#484848" points="57.4,38.3 58.4,37.3 58.4,34.5 57.4,33.4 	"/>
+	<polygon fill="#5A5A5A" points="57.4,33.4 58.4,34.5 61.2,34.5 62.2,33.4 	"/>
+	<polygon fill="#383737" points="62.3,33.4 61.2,34.5 61.2,37.3 62.3,38.3 	"/>
+	<rect id="GNDT2" x="51.2" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="55,38.3 54,37.3 51.2,37.3 50.2,38.3 	"/>
+	<polygon fill="#484848" points="50.2,38.3 51.2,37.3 51.2,34.5 50.2,33.4 	"/>
+	<polygon fill="#5A5A5A" points="50.2,33.4 51.2,34.5 54,34.5 55,33.4 	"/>
+	<polygon fill="#383737" points="55.1,33.4 54,34.5 54,37.3 55.1,38.3 	"/>
+	<rect id="GNDT1" x="44" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="47.8,38.3 46.8,37.3 44,37.3 43,38.3 	"/>
+	<polygon fill="#484848" points="43,38.3 44,37.3 44,34.5 43,33.4 	"/>
+	<polygon fill="#5A5A5A" points="43,33.4 44,34.5 46.8,34.5 47.8,33.4 	"/>
+	<polygon fill="#383737" points="47.9,33.4 46.8,34.5 46.8,37.3 47.9,38.3 	"/>
+	<rect id="POW3VT3" x="36.8" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="40.6,38.3 39.6,37.3 36.8,37.3 35.8,38.3 	"/>
+	<polygon fill="#484848" points="35.8,38.3 36.8,37.3 36.8,34.5 35.8,33.4 	"/>
+	<polygon fill="#5A5A5A" points="35.8,33.4 36.8,34.5 39.6,34.5 40.6,33.4 	"/>
+	<polygon fill="#383737" points="40.7,33.4 39.6,34.5 39.6,37.3 40.7,38.3 	"/>
+	<rect id="POW3VT2" x="29.6" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="33.4,38.3 32.4,37.3 29.6,37.3 28.6,38.3 	"/>
+	<polygon fill="#484848" points="28.6,38.3 29.6,37.3 29.6,34.5 28.6,33.4 	"/>
+	<polygon fill="#5A5A5A" points="28.6,33.4 29.6,34.5 32.4,34.5 33.4,33.4 	"/>
+	<polygon fill="#383737" points="33.5,33.4 32.4,34.5 32.4,37.3 33.5,38.3 	"/>
+	<rect id="POW3VT1" x="22.3" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="26.2,38.3 25.1,37.3 22.5,37.3 21.4,38.3 	"/>
+	<polygon fill="#484848" points="21.4,38.3 22.5,37.3 22.5,34.5 21.4,33.4 	"/>
+	<polygon fill="#5A5A5A" points="21.4,33.4 22.5,34.5 25.1,34.5 26.2,33.4 	"/>
+	<polygon fill="#383737" points="26.2,33.4 25.1,34.5 25.1,37.3 26.2,38.3 	"/>
+	<rect id="PA4" x="87.1" y="34.5" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="90.8,38.3 89.8,37.3 87.1,37.3 86.1,38.3 	"/>
+	<polygon fill="#484848" points="86.1,38.3 87.1,37.3 87.1,34.5 86.1,33.4 	"/>
+	<polygon fill="#5A5A5A" points="86.1,33.4 87.1,34.5 89.8,34.5 90.8,33.4 	"/>
+	<polygon fill="#383737" points="90.8,33.4 89.8,34.5 89.8,37.3 90.8,38.3 	"/>
+	<rect id="PA13" x="151.8" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="155.5,38.4 154.5,37.4 151.7,37.4 150.7,38.4 	"/>
+	<polygon fill="#484848" points="150.7,38.4 151.7,37.4 151.7,34.6 150.7,33.5 	"/>
+	<polygon fill="#5A5A5A" points="150.7,33.5 151.7,34.6 154.5,34.6 155.5,33.5 	"/>
+	<polygon fill="#383737" points="155.6,33.5 154.5,34.6 154.5,37.4 155.6,38.4 	"/>
+	<rect id="PA12" x="144.6" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="148.4,38.4 147.3,37.4 144.5,37.4 143.5,38.4 	"/>
+	<polygon fill="#484848" points="143.5,38.4 144.5,37.4 144.5,34.6 143.5,33.5 	"/>
+	<polygon fill="#5A5A5A" points="143.5,33.5 144.5,34.6 147.3,34.6 148.4,33.5 	"/>
+	<polygon fill="#383737" points="148.4,33.5 147.3,34.6 147.3,37.4 148.4,38.4 	"/>
+	<rect id="PA11" x="137.3" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="141.1,38.4 140.1,37.4 137.3,37.4 136.3,38.4 	"/>
+	<polygon fill="#484848" points="136.3,38.4 137.3,37.4 137.3,34.6 136.3,33.5 	"/>
+	<polygon fill="#5A5A5A" points="136.3,33.5 137.3,34.6 140.1,34.6 141.1,33.5 	"/>
+	<polygon fill="#383737" points="141.2,33.5 140.1,34.6 140.1,37.4 141.2,38.4 	"/>
+	<rect id="PA10" x="130.3" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="134,38.4 133,37.4 130.2,37.4 129.2,38.4 	"/>
+	<polygon fill="#484848" points="129.2,38.4 130.2,37.4 130.2,34.6 129.2,33.5 	"/>
+	<polygon fill="#5A5A5A" points="129.2,33.5 130.2,34.6 133,34.6 134,33.5 	"/>
+	<polygon fill="#383737" points="134.1,33.5 133,34.6 133,37.4 134.1,38.4 	"/>
+	<rect id="PA9" x="123" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="126.8,38.4 125.8,37.4 123,37.4 122,38.4 	"/>
+	<polygon fill="#484848" points="122,38.4 123,37.4 123,34.6 122,33.5 	"/>
+	<polygon fill="#5A5A5A" points="122,33.5 123,34.6 125.8,34.6 126.8,33.5 	"/>
+	<polygon fill="#383737" points="126.9,33.5 125.8,34.6 125.8,37.4 126.9,38.4 	"/>
+	<rect id="PA8" x="115.8" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="119.6,38.4 118.6,37.4 115.8,37.4 114.8,38.4 	"/>
+	<polygon fill="#484848" points="114.8,38.4 115.8,37.4 115.8,34.6 114.8,33.5 	"/>
+	<polygon fill="#5A5A5A" points="114.8,33.5 115.8,34.6 118.6,34.6 119.6,33.5 	"/>
+	<polygon fill="#383737" points="119.7,33.5 118.6,34.6 118.6,37.4 119.7,38.4 	"/>
+	<rect id="PA7" x="108.6" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="112.4,38.4 111.4,37.4 108.6,37.4 107.6,38.4 	"/>
+	<polygon fill="#484848" points="107.6,38.4 108.6,37.4 108.6,34.6 107.6,33.5 	"/>
+	<polygon fill="#5A5A5A" points="107.6,33.5 108.6,34.6 111.4,34.6 112.4,33.5 	"/>
+	<polygon fill="#383737" points="112.5,33.5 111.4,34.6 111.4,37.4 112.5,38.4 	"/>
+	<rect id="PA6" x="101.4" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="105.2,38.4 104.2,37.4 101.4,37.4 100.4,38.4 	"/>
+	<polygon fill="#484848" points="100.4,38.4 101.4,37.4 101.4,34.6 100.4,33.5 	"/>
+	<polygon fill="#5A5A5A" points="100.4,33.5 101.4,34.6 104.2,34.6 105.2,33.5 	"/>
+	<polygon fill="#383737" points="105.3,33.5 104.2,34.6 104.2,37.4 105.3,38.4 	"/>
+	<rect id="PA5" x="94.2" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="98.1,38.4 97,37.4 94.3,37.4 93.2,38.4 	"/>
+	<polygon fill="#484848" points="93.2,38.4 94.3,37.4 94.3,34.6 93.2,33.5 	"/>
+	<polygon fill="#5A5A5A" points="93.2,33.5 94.3,34.6 97,34.6 98.1,33.5 	"/>
+	<polygon fill="#383737" points="98.1,33.5 97,34.6 97,37.4 98.1,38.4 	"/>
+	<rect id="PA14" x="158.9" y="34.6" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="162.7,38.4 161.7,37.4 158.9,37.4 157.9,38.4 	"/>
+	<polygon fill="#484848" points="157.9,38.4 158.9,37.4 158.9,34.6 157.9,33.5 	"/>
+	<polygon fill="#5A5A5A" points="157.9,33.5 158.9,34.6 161.7,34.6 162.7,33.5 	"/>
+	<polygon fill="#383737" points="162.7,33.5 161.7,34.6 161.7,37.4 162.7,38.4 	"/>
+</g>
+<g id="PinHeaderBottom_2_">
+	<rect x="20.2" y="141.9" fill="#404040" width="144" height="7.2"/>
+	<rect id="PA26" x="79.8" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="83.7,147.9 82.7,146.9 79.8,146.9 78.8,147.9 	"/>
+	<polygon fill="#484848" points="78.8,147.9 79.8,146.9 79.8,144.1 78.8,143 	"/>
+	<polygon fill="#5A5A5A" points="78.8,143 79.8,144.1 82.7,144.1 83.7,143 	"/>
+	<polygon fill="#383737" points="83.8,143 82.7,144.1 82.7,146.9 83.8,147.9 	"/>
+	<rect id="PA27" x="72.7" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="76.6,147.9 75.5,146.9 72.7,146.9 71.7,147.9 	"/>
+	<polygon fill="#484848" points="71.7,147.9 72.7,146.9 72.7,144.1 71.7,143 	"/>
+	<polygon fill="#5A5A5A" points="71.7,143 72.7,144.1 75.5,144.1 76.6,143 	"/>
+	<polygon fill="#383737" points="76.6,143 75.5,144.1 75.5,146.9 76.6,147.9 	"/>
+	<rect id="PA28" x="65.5" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="69.3,147.9 68.3,146.9 65.5,146.9 64.5,147.9 	"/>
+	<polygon fill="#484848" points="64.5,147.9 65.5,146.9 65.5,144.1 64.5,143 	"/>
+	<polygon fill="#5A5A5A" points="64.5,143 65.5,144.1 68.3,144.1 69.3,143 	"/>
+	<polygon fill="#383737" points="69.3,143 68.3,144.1 68.3,146.9 69.3,147.9 	"/>
+	<rect id="PA29" x="58.3" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="62.2,147.9 61.2,146.9 58.4,146.9 57.4,147.9 	"/>
+	<polygon fill="#484848" points="57.4,147.9 58.4,146.9 58.4,144.1 57.4,143 	"/>
+	<polygon fill="#5A5A5A" points="57.4,143 58.4,144.1 61.2,144.1 62.2,143 	"/>
+	<polygon fill="#383737" points="62.3,143 61.2,144.1 61.2,146.9 62.3,147.9 	"/>
+	<rect id="GNDB2" x="51.2" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="55,147.9 54,146.9 51.2,146.9 50.2,147.9 	"/>
+	<polygon fill="#484848" points="50.2,147.9 51.2,146.9 51.2,144.1 50.2,143 	"/>
+	<polygon fill="#5A5A5A" points="50.2,143 51.2,144.1 54,144.1 55,143 	"/>
+	<polygon fill="#383737" points="55.1,143 54,144.1 54,146.9 55.1,147.9 	"/>
+	<rect id="GNDB1" x="44" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="47.8,147.9 46.8,146.9 44,146.9 43,147.9 	"/>
+	<polygon fill="#484848" points="43,147.9 44,146.9 44,144.1 43,143 	"/>
+	<polygon fill="#5A5A5A" points="43,143 44,144.1 46.8,144.1 47.8,143 	"/>
+	<polygon fill="#383737" points="47.9,143 46.8,144.1 46.8,146.9 47.9,147.9 	"/>
+	<rect id="POW3VB3" x="36.8" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="40.6,147.9 39.6,146.9 36.8,146.9 35.8,147.9 	"/>
+	<polygon fill="#484848" points="35.8,147.9 36.8,146.9 36.8,144.1 35.8,143 	"/>
+	<polygon fill="#5A5A5A" points="35.8,143 36.8,144.1 39.6,144.1 40.6,143 	"/>
+	<polygon fill="#383737" points="40.7,143 39.6,144.1 39.6,146.9 40.7,147.9 	"/>
+	<rect id="POW3VB2" x="29.6" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="33.4,147.9 32.4,146.9 29.6,146.9 28.6,147.9 	"/>
+	<polygon fill="#484848" points="28.6,147.9 29.6,146.9 29.6,144.1 28.6,143 	"/>
+	<polygon fill="#5A5A5A" points="28.6,143 29.6,144.1 32.4,144.1 33.4,143 	"/>
+	<polygon fill="#383737" points="33.5,143 32.4,144.1 32.4,146.9 33.5,147.9 	"/>
+	<rect id="POW3VB1" x="22.3" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="26.2,147.9 25.1,146.9 22.5,146.9 21.4,147.9 	"/>
+	<polygon fill="#484848" points="21.4,147.9 22.5,146.9 22.5,144.1 21.4,143 	"/>
+	<polygon fill="#5A5A5A" points="21.4,143 22.5,144.1 25.1,144.1 26.2,143 	"/>
+	<polygon fill="#383737" points="26.2,143 25.1,144.1 25.1,146.9 26.2,147.9 	"/>
+	<rect id="PA25" x="87.1" y="144.1" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="90.8,147.9 89.8,146.9 87.1,146.9 86.1,147.9 	"/>
+	<polygon fill="#484848" points="86.1,147.9 87.1,146.9 87.1,144.1 86.1,143 	"/>
+	<polygon fill="#5A5A5A" points="86.1,143 87.1,144.1 89.8,144.1 90.8,143 	"/>
+	<polygon fill="#383737" points="90.8,143 89.8,144.1 89.8,146.9 90.8,147.9 	"/>
+	<rect id="PA16" x="151.8" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="155.5,148 154.5,147 151.7,147 150.7,148 	"/>
+	<polygon fill="#484848" points="150.7,148 151.7,147 151.7,144.2 150.7,143.1 	"/>
+	<polygon fill="#5A5A5A" points="150.7,143.1 151.7,144.2 154.5,144.2 155.5,143.1 	"/>
+	<polygon fill="#383737" points="155.6,143.1 154.5,144.2 154.5,147 155.6,148 	"/>
+	<rect id="PA17" x="144.6" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="148.4,148 147.3,147 144.5,147 143.5,148 	"/>
+	<polygon fill="#484848" points="143.5,148 144.5,147 144.5,144.2 143.5,143.1 	"/>
+	<polygon fill="#5A5A5A" points="143.5,143.1 144.5,144.2 147.3,144.2 148.4,143.1 	"/>
+	<polygon fill="#383737" points="148.4,143.1 147.3,144.2 147.3,147 148.4,148 	"/>
+	<rect id="PA18" x="137.3" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="141.1,148 140.1,147 137.3,147 136.3,148 	"/>
+	<polygon fill="#484848" points="136.3,148 137.3,147 137.3,144.2 136.3,143.1 	"/>
+	<polygon fill="#5A5A5A" points="136.3,143.1 137.3,144.2 140.1,144.2 141.1,143.1 	"/>
+	<polygon fill="#383737" points="141.2,143.1 140.1,144.2 140.1,147 141.2,148 	"/>
+	<rect id="PA19" x="130.3" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="134,148 133,147 130.2,147 129.2,148 	"/>
+	<polygon fill="#484848" points="129.2,148 130.2,147 130.2,144.2 129.2,143.1 	"/>
+	<polygon fill="#5A5A5A" points="129.2,143.1 130.2,144.2 133,144.2 134,143.1 	"/>
+	<polygon fill="#383737" points="134.1,143.1 133,144.2 133,147 134.1,148 	"/>
+	<rect id="PA20" x="123" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="126.8,148 125.8,147 123,147 122,148 	"/>
+	<polygon fill="#484848" points="122,148 123,147 123,144.2 122,143.1 	"/>
+	<polygon fill="#5A5A5A" points="122,143.1 123,144.2 125.8,144.2 126.8,143.1 	"/>
+	<polygon fill="#383737" points="126.9,143.1 125.8,144.2 125.8,147 126.9,148 	"/>
+	<rect id="PA21" x="115.8" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="119.6,148 118.6,147 115.8,147 114.8,148 	"/>
+	<polygon fill="#484848" points="114.8,148 115.8,147 115.8,144.2 114.8,143.1 	"/>
+	<polygon fill="#5A5A5A" points="114.8,143.1 115.8,144.2 118.6,144.2 119.6,143.1 	"/>
+	<polygon fill="#383737" points="119.7,143.1 118.6,144.2 118.6,147 119.7,148 	"/>
+	<rect id="PA22" x="108.6" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="112.4,148 111.4,147 108.6,147 107.6,148 	"/>
+	<polygon fill="#484848" points="107.6,148 108.6,147 108.6,144.2 107.6,143.1 	"/>
+	<polygon fill="#5A5A5A" points="107.6,143.1 108.6,144.2 111.4,144.2 112.4,143.1 	"/>
+	<polygon fill="#383737" points="112.5,143.1 111.4,144.2 111.4,147 112.5,148 	"/>
+	<rect id="PA23" x="101.4" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="105.2,148 104.2,147 101.4,147 100.4,148 	"/>
+	<polygon fill="#484848" points="100.4,148 101.4,147 101.4,144.2 100.4,143.1 	"/>
+	<polygon fill="#5A5A5A" points="100.4,143.1 101.4,144.2 104.2,144.2 105.2,143.1 	"/>
+	<polygon fill="#383737" points="105.3,143.1 104.2,144.2 104.2,147 105.3,148 	"/>
+	<rect id="PA24" x="94.2" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="98.1,148 97,147 94.3,147 93.2,148 	"/>
+	<polygon fill="#484848" points="93.2,148 94.3,147 94.3,144.2 93.2,143.1 	"/>
+	<polygon fill="#5A5A5A" points="93.2,143.1 94.3,144.2 97,144.2 98.1,143.1 	"/>
+	<polygon fill="#383737" points="98.1,143.1 97,144.2 97,147 98.1,148 	"/>
+	<rect id="PA15" x="158.9" y="144.2" fill="#010202" width="2.8" height="2.8"/>
+	<polygon fill="#2B2B2A" points="162.7,148 161.7,147 158.9,147 157.9,148 	"/>
+	<polygon fill="#484848" points="157.9,148 158.9,147 158.9,144.2 157.9,143.1 	"/>
+	<polygon fill="#5A5A5A" points="157.9,143.1 158.9,144.2 161.7,144.2 162.7,143.1 	"/>
+	<polygon fill="#383737" points="162.7,143.1 161.7,144.2 161.7,147 162.7,148 	"/>
+</g>
+<g id="breadboardbreadboard">
+	<g id="background">
+		<rect x="27.4" y="40.1" fill="#9DD2F3" width="129.8" height="100.9"/>
+	</g>
+	<rect x="47.1" y="86.9" fill="#7FC1EC" width="90.5" height="7.3"/>
+	<g id="sockets" transform="translate(-4.5, -9)">
+		<g id="A1pin">
+			<path fill="#7FC1EC" d="M36.8,60c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M41.6,60c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="39.2" cy="60" r="1.2"/>
+		</g>
+		<g id="B1pin">
+			<path fill="#7FC1EC" d="M36.8,67.2c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M41.6,67.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="39.2" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C1pin">
+			<path fill="#7FC1EC" d="M36.8,74.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M41.6,74.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="39.2" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D1pin">
+			<path fill="#7FC1EC" d="M36.8,81.6c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M41.6,81.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="39.2" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E1pin">
+			<path fill="#7FC1EC" d="M36.8,88.8c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M41.6,88.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="39.2" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A2pin">
+			<path fill="#7FC1EC" d="M44,60c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M48.8,60c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="46.4" cy="60" r="1.2"/>
+		</g>
+		<g id="B2pin">
+			<path fill="#7FC1EC" d="M44,67.2c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M48.8,67.2c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="46.4" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C2pin">
+			<path fill="#7FC1EC" d="M44,74.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M48.8,74.4c0,1.3-1.1,2.4-2.4,2.4S44,75.7,44,74.4l0,0"/>
+			<circle fill="#383938" cx="46.4" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D2pin">
+			<path fill="#7FC1EC" d="M44,81.6c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M48.8,81.6c0,1.3-1.1,2.4-2.4,2.4S44,82.9,44,81.6l0,0"/>
+			<circle fill="#383938" cx="46.4" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E2pin">
+			<path fill="#7FC1EC" d="M44,88.8c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M48.8,88.8c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="46.4" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A3pin">
+			<path fill="#7FC1EC" d="M51.2,60c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M56,60c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="53.6" cy="60" r="1.2"/>
+		</g>
+		<g id="B3pin">
+			<path fill="#7FC1EC" d="M51.2,67.2c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M56,67.2c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="53.6" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C3pin">
+			<path fill="#7FC1EC" d="M51.2,74.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M56,74.4c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="53.6" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D3pin">
+			<path fill="#7FC1EC" d="M51.2,81.6c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M56,81.6c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="53.6" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E3pin">
+			<path fill="#7FC1EC" d="M51.2,88.8c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M56,88.8c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="53.6" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A4pin">
+			<path fill="#7FC1EC" d="M58.4,60c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M63.2,60c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="60.8" cy="60" r="1.2"/>
+		</g>
+		<g id="B4pin">
+			<path fill="#7FC1EC" d="M58.4,67.2c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M63.2,67.2c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="60.8" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C4pin">
+			<path fill="#7FC1EC" d="M58.4,74.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M63.2,74.4c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="60.8" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D4pin">
+			<path fill="#7FC1EC" d="M58.4,81.6c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M63.2,81.6c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="60.8" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E4pin">
+			<path fill="#7FC1EC" d="M58.4,88.8c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M63.2,88.8c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="60.8" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A5pin">
+			<path fill="#7FC1EC" d="M65.6,60c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M70.4,60c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="68" cy="60" r="1.2"/>
+		</g>
+		<g id="B5pin">
+			<path fill="#7FC1EC" d="M65.6,67.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M70.4,67.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="68" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C5pin">
+			<path fill="#7FC1EC" d="M65.6,74.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M70.4,74.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="68" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D5pin">
+			<path fill="#7FC1EC" d="M65.6,81.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M70.4,81.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="68" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E5pin">
+			<path fill="#7FC1EC" d="M65.6,88.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M70.4,88.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="68" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A6pin">
+			<path fill="#7FC1EC" d="M72.8,60c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M77.6,60c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="75.2" cy="60" r="1.2"/>
+		</g>
+		<g id="B6pin">
+			<path fill="#7FC1EC" d="M72.8,67.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M77.6,67.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="75.2" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C6pin">
+			<path fill="#7FC1EC" d="M72.8,74.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M77.6,74.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="75.2" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D6pin">
+			<path fill="#7FC1EC" d="M72.8,81.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M77.6,81.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="75.2" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E6pin">
+			<path fill="#7FC1EC" d="M72.8,88.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M77.6,88.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="75.2" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A7pin">
+			<path fill="#7FC1EC" d="M80,60c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M84.8,60c0,1.3-1.1,2.4-2.4,2.4S80,61.3,80,60l0,0"/>
+			<circle fill="#383938" cx="82.4" cy="60" r="1.2"/>
+		</g>
+		<g id="B7pin">
+			<path fill="#7FC1EC" d="M80,67.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M84.8,67.2c0,1.3-1.1,2.4-2.4,2.4S80,68.5,80,67.2"/>
+			<circle fill="#383938" cx="82.4" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C7pin">
+			<path fill="#7FC1EC" d="M80,74.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M84.8,74.4c0,1.3-1.1,2.4-2.4,2.4S80,75.7,80,74.4l0,0"/>
+			<circle fill="#383938" cx="82.4" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D7pin">
+			<path fill="#7FC1EC" d="M80,81.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M84.8,81.6c0,1.3-1.1,2.4-2.4,2.4S80,82.9,80,81.6"/>
+			<circle fill="#383938" cx="82.4" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E7pin">
+			<path fill="#7FC1EC" d="M80,88.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M84.8,88.8c0,1.3-1.1,2.4-2.4,2.4S80,90.1,80,88.8"/>
+			<circle fill="#383938" cx="82.4" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A8pin">
+			<path fill="#7FC1EC" d="M87.2,60c0-1.3,1.1-2.4,2.4-2.4S92,58.7,92,60"/>
+			<path fill="#BAE2F0" d="M92,60c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="89.6" cy="60" r="1.2"/>
+		</g>
+		<g id="B8pin">
+			<path fill="#7FC1EC" d="M87.2,67.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M92,67.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="89.6" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C8pin">
+			<path fill="#7FC1EC" d="M87.2,74.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M92,74.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="89.6" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D8pin">
+			<path fill="#7FC1EC" d="M87.2,81.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M92,81.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="89.6" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E8pin">
+			<path fill="#7FC1EC" d="M87.2,88.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M92,88.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="89.6" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A9pin">
+			<path fill="#7FC1EC" d="M94.4,60c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M99.2,60c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="96.8" cy="60" r="1.2"/>
+		</g>
+		<g id="B9pin">
+			<path fill="#7FC1EC" d="M94.4,67.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M99.2,67.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="96.8" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C9pin">
+			<path fill="#7FC1EC" d="M94.4,74.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M99.2,74.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="96.8" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D9pin">
+			<path fill="#7FC1EC" d="M94.4,81.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M99.2,81.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="96.8" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E9pin">
+			<path fill="#7FC1EC" d="M94.4,88.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M99.2,88.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="96.8" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A10pin">
+			<path fill="#7FC1EC" d="M101.6,60c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M106.4,60c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="104" cy="60" r="1.2"/>
+		</g>
+		<g id="B10pin">
+			<path fill="#7FC1EC" d="M101.6,67.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M106.4,67.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="104" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C10pin">
+			<path fill="#7FC1EC" d="M101.6,74.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M106.4,74.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="104" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D10pin">
+			<path fill="#7FC1EC" d="M101.6,81.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M106.4,81.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="104" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E10pin">
+			<path fill="#7FC1EC" d="M101.6,88.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M106.4,88.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="104" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A11pin">
+			<path fill="#7FC1EC" d="M108.8,60c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M113.6,60c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="111.2" cy="60" r="1.2"/>
+		</g>
+		<g id="B11pin">
+			<path fill="#7FC1EC" d="M108.8,67.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M113.6,67.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="111.2" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C11pin">
+			<path fill="#7FC1EC" d="M108.8,74.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M113.6,74.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="111.2" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D11pin">
+			<path fill="#7FC1EC" d="M108.8,81.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M113.6,81.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="111.2" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E11pin">
+			<path fill="#7FC1EC" d="M108.8,88.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M113.6,88.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="111.2" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A12pin">
+			<path fill="#7FC1EC" d="M116,60c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M120.8,60c0,1.3-1.1,2.4-2.4,2.4S116,61.3,116,60l0,0"/>
+			<circle fill="#383938" cx="118.4" cy="60" r="1.2"/>
+		</g>
+		<g id="B12pin">
+			<path fill="#7FC1EC" d="M116,67.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M120.8,67.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="118.4" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C12pin">
+			<path fill="#7FC1EC" d="M116,74.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M120.8,74.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="118.4" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D12pin">
+			<path fill="#7FC1EC" d="M116,81.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M120.8,81.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="118.4" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E12pin">
+			<path fill="#7FC1EC" d="M116,88.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M120.8,88.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="118.4" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A13pin">
+			<path fill="#7FC1EC" d="M123.2,60c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M128,60c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="125.6" cy="60" r="1.2"/>
+		</g>
+		<g id="B13pin">
+			<path fill="#7FC1EC" d="M123.2,67.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M128,67.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="125.6" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C13pin">
+			<path fill="#7FC1EC" d="M123.2,74.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M128,74.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="125.6" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D13pin">
+			<path fill="#7FC1EC" d="M123.2,81.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M128,81.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="125.6" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E13pin">
+			<path fill="#7FC1EC" d="M123.2,88.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M128,88.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="125.6" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A14pin">
+			<path fill="#7FC1EC" d="M130.4,60c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M135.2,60c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="132.8" cy="60" r="1.2"/>
+		</g>
+		<g id="B14pin">
+			<path fill="#7FC1EC" d="M130.4,67.2c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M135.2,67.2c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="132.8" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C14pin">
+			<path fill="#7FC1EC" d="M130.4,74.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M135.2,74.4c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="132.8" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D14pin">
+			<path fill="#7FC1EC" d="M130.4,81.6c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M135.2,81.6c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="132.8" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E14pin">
+			<path fill="#7FC1EC" d="M130.4,88.8c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M135.2,88.8c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="132.8" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A15pin">
+			<path fill="#7FC1EC" d="M137.6,60c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M142.4,60c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="140" cy="60" r="1.2"/>
+		</g>
+		<g id="B15pin">
+			<path fill="#7FC1EC" d="M137.6,67.2c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M142.4,67.2c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="140" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C15pin">
+			<path fill="#7FC1EC" d="M137.6,74.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M142.4,74.4c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="140" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D15pin">
+			<path fill="#7FC1EC" d="M137.6,81.6c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M142.4,81.6c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="140" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E15pin">
+			<path fill="#7FC1EC" d="M137.6,88.8c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M142.4,88.8c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="140" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A16pin">
+			<path fill="#7FC1EC" d="M144.8,60c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M149.6,60c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="147.2" cy="60" r="1.2"/>
+		</g>
+		<g id="B16pin">
+			<path fill="#7FC1EC" d="M144.8,67.2c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M149.6,67.2c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="147.2" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C16pin">
+			<path fill="#7FC1EC" d="M144.8,74.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M149.6,74.4c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="147.2" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D16pin">
+			<path fill="#7FC1EC" d="M144.8,81.6c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M149.6,81.6c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="147.2" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E16pin">
+			<path fill="#7FC1EC" d="M144.8,88.8c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M149.6,88.8c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="147.2" cy="88.8" r="1.2"/>
+		</g>
+		<g id="A17pin">
+			<path fill="#7FC1EC" d="M152,60c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M156.8,60c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="154.4" cy="60" r="1.2"/>
+		</g>
+		<g id="B17pin">
+			<path fill="#7FC1EC" d="M152,67.2c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M156.8,67.2c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="154.4" cy="67.2" r="1.2"/>
+		</g>
+		<g id="C17pin">
+			<path fill="#7FC1EC" d="M152,74.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M156.8,74.4c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="154.4" cy="74.4" r="1.2"/>
+		</g>
+		<g id="D17pin">
+			<path fill="#7FC1EC" d="M152,81.6c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M156.8,81.6c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="154.4" cy="81.6" r="1.2"/>
+		</g>
+		<g id="E17pin">
+			<path fill="#7FC1EC" d="M152,88.8c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M156.8,88.8c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="154.4" cy="88.8" r="1.2"/>
+		</g>
+		<g id="F1pin">
+			<path fill="#7FC1EC" d="M36.8,110.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M41.6,110.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="39.2" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G1pin">
+			<path fill="#7FC1EC" d="M36.8,117.6c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M41.6,117.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="39.2" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H1pin">
+			<path fill="#7FC1EC" d="M36.8,124.8c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M41.6,124.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="39.2" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I1pin">
+			<path fill="#7FC1EC" d="M36.8,132c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M41.6,132c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="39.2" cy="132" r="1.2"/>
+		</g>
+		<g id="J1pin">
+			<path fill="#7FC1EC" d="M36.8,139.2c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M41.6,139.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="39.2" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F2pin">
+			<path fill="#7FC1EC" d="M44,110.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M48.8,110.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="46.4" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G2pin">
+			<path fill="#7FC1EC" d="M44,117.6c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M48.8,117.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="46.4" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H2pin">
+			<path fill="#7FC1EC" d="M44,124.8c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M48.8,124.8c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="46.4" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I2pin">
+			<path fill="#7FC1EC" d="M44,132c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M48.8,132c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="46.4" cy="132" r="1.2"/>
+		</g>
+		<g id="J2pin">
+			<path fill="#7FC1EC" d="M44,139.2c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M48.8,139.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="46.4" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F3pin">
+			<path fill="#7FC1EC" d="M51.2,110.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M56,110.4c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="53.6" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G3pin">
+			<path fill="#7FC1EC" d="M51.2,117.6c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M56,117.6c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="53.6" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H3pin">
+			<path fill="#7FC1EC" d="M51.2,124.8c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M56,124.8c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="53.6" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I3pin">
+			<path fill="#7FC1EC" d="M51.2,132c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M56,132c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="53.6" cy="132" r="1.2"/>
+		</g>
+		<g id="J3pin">
+			<path fill="#7FC1EC" d="M51.2,139.2c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M56,139.2c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="53.6" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F4pin">
+			<path fill="#7FC1EC" d="M58.4,110.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M63.2,110.4c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="60.8" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G4pin">
+			<path fill="#7FC1EC" d="M58.4,117.6c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M63.2,117.6c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="60.8" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H4pin">
+			<path fill="#7FC1EC" d="M58.4,124.8c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M63.2,124.8c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="60.8" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I4pin">
+			<path fill="#7FC1EC" d="M58.4,132c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M63.2,132c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="60.8" cy="132" r="1.2"/>
+		</g>
+		<g id="J4pin">
+			<path fill="#7FC1EC" d="M58.4,139.2c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M63.2,139.2c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="60.8" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F5pin">
+			<path fill="#7FC1EC" d="M65.6,110.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M70.4,110.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="68" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G5pin">
+			<path fill="#7FC1EC" d="M65.6,117.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M70.4,117.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="68" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H5pin">
+			<path fill="#7FC1EC" d="M65.6,124.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M70.4,124.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="68" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I5pin">
+			<path fill="#7FC1EC" d="M65.6,132c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M70.4,132c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="68" cy="132" r="1.2"/>
+		</g>
+		<g id="J5pin">
+			<path fill="#7FC1EC" d="M65.6,139.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M70.4,139.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="68" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F6pin">
+			<path fill="#7FC1EC" d="M72.8,110.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M77.6,110.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="75.2" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G6pin">
+			<path fill="#7FC1EC" d="M72.8,117.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M77.6,117.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="75.2" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H6pin">
+			<path fill="#7FC1EC" d="M72.8,124.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M77.6,124.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="75.2" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I6pin">
+			<path fill="#7FC1EC" d="M72.8,132c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M77.6,132c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="75.2" cy="132" r="1.2"/>
+		</g>
+		<g id="J6pin">
+			<path fill="#7FC1EC" d="M72.8,139.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M77.6,139.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="75.2" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F7pin">
+			<path fill="#7FC1EC" d="M80,110.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M84.8,110.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="82.4" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G7pin">
+			<path fill="#7FC1EC" d="M80,117.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M84.8,117.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="82.4" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H7pin">
+			<path fill="#7FC1EC" d="M80,124.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M84.8,124.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="82.4" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I7pin">
+			<path fill="#7FC1EC" d="M80,132c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M84.8,132c0,1.3-1.1,2.4-2.4,2.4S80,133.3,80,132"/>
+			<circle fill="#383938" cx="82.4" cy="132" r="1.2"/>
+		</g>
+		<g id="J7pin">
+			<path fill="#7FC1EC" d="M80,139.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M84.8,139.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="82.4" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F8pin">
+			<path fill="#7FC1EC" d="M87.2,110.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M92,110.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="89.6" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G8pin">
+			<path fill="#7FC1EC" d="M87.2,117.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M92,117.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="89.6" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H8pin">
+			<path fill="#7FC1EC" d="M87.2,124.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M92,124.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="89.6" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I8pin">
+			<path fill="#7FC1EC" d="M87.2,132c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M92,132c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="89.6" cy="132" r="1.2"/>
+		</g>
+		<g id="J8pin">
+			<path fill="#7FC1EC" d="M87.2,139.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M92,139.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="89.6" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F9pin">
+			<path fill="#7FC1EC" d="M94.4,110.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M99.2,110.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="96.8" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G9pin">
+			<path fill="#7FC1EC" d="M94.4,117.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M99.2,117.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="96.8" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H9pin">
+			<path fill="#7FC1EC" d="M94.4,124.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M99.2,124.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="96.8" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I9pin">
+			<path fill="#7FC1EC" d="M94.4,132c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M99.2,132c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="96.8" cy="132" r="1.2"/>
+		</g>
+		<g id="J9pin">
+			<path fill="#7FC1EC" d="M94.4,139.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M99.2,139.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="96.8" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F10pin">
+			<path fill="#7FC1EC" d="M101.6,110.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M106.4,110.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="104" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G10pin">
+			<path fill="#7FC1EC" d="M101.6,117.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M106.4,117.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="104" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H10pin">
+			<path fill="#7FC1EC" d="M101.6,124.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M106.4,124.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="104" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I10pin">
+			<path fill="#7FC1EC" d="M101.6,132c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M106.4,132c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="104" cy="132" r="1.2"/>
+		</g>
+		<g id="J10pin">
+			<path fill="#7FC1EC" d="M101.6,139.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M106.4,139.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="104" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F11pin">
+			<path fill="#7FC1EC" d="M108.8,110.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M113.6,110.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="111.2" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G11pin">
+			<path fill="#7FC1EC" d="M108.8,117.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M113.6,117.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="111.2" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H11pin">
+			<path fill="#7FC1EC" d="M108.8,124.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M113.6,124.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="111.2" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I11pin">
+			<path fill="#7FC1EC" d="M108.8,132c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M113.6,132c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="111.2" cy="132" r="1.2"/>
+		</g>
+		<g id="J11pin">
+			<path fill="#7FC1EC" d="M108.8,139.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M113.6,139.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="111.2" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F12pin">
+			<path fill="#7FC1EC" d="M116,110.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M120.8,110.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="118.4" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G12pin">
+			<path fill="#7FC1EC" d="M116,117.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M120.8,117.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="118.4" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H12pin">
+			<path fill="#7FC1EC" d="M116,124.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M120.8,124.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="118.4" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I12pin">
+			<path fill="#7FC1EC" d="M116,132c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M120.8,132c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="118.4" cy="132" r="1.2"/>
+		</g>
+		<g id="J12pin">
+			<path fill="#7FC1EC" d="M116,139.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M120.8,139.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="118.4" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F13pin">
+			<path fill="#7FC1EC" d="M123.2,110.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M128,110.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="125.6" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G13pin">
+			<path fill="#7FC1EC" d="M123.2,117.6c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M128,117.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="125.6" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H13pin">
+			<path fill="#7FC1EC" d="M123.2,124.8c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M128,124.8c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="125.6" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I13pin">
+			<path fill="#7FC1EC" d="M123.2,132c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M128,132c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="125.6" cy="132" r="1.2"/>
+		</g>
+		<g id="J13pin">
+			<path fill="#7FC1EC" d="M123.2,139.2c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M128,139.2c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="125.6" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F14pin">
+			<path fill="#7FC1EC" d="M130.4,110.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M135.2,110.4c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="132.8" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G14pin">
+			<path fill="#7FC1EC" d="M130.4,117.6c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M135.2,117.6c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="132.8" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H14pin">
+			<path fill="#7FC1EC" d="M130.4,124.8c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M135.2,124.8c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="132.8" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I14pin">
+			<path fill="#7FC1EC" d="M130.4,132c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M135.2,132c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4"/>
+			<circle fill="#383938" cx="132.8" cy="132" r="1.2"/>
+		</g>
+		<g id="J14pin">
+			<path fill="#7FC1EC" d="M130.4,139.2c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M135.2,139.2c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="132.8" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F15pin">
+			<path fill="#7FC1EC" d="M137.6,110.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M142.4,110.4c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="140" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G15pin">
+			<path fill="#7FC1EC" d="M137.6,117.6c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M142.4,117.6c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="140" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H15pin">
+			<path fill="#7FC1EC" d="M137.6,124.8c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M142.4,124.8c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="140" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I15pin">
+			<path fill="#7FC1EC" d="M137.6,132c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M142.4,132c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="140" cy="132" r="1.2"/>
+		</g>
+		<g id="J15pin">
+			<path fill="#7FC1EC" d="M137.6,139.2c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M142.4,139.2c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="140" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F16pin">
+			<path fill="#7FC1EC" d="M144.8,110.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M149.6,110.4c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="147.2" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G16pin">
+			<path fill="#7FC1EC" d="M144.8,117.6c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M149.6,117.6c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="147.2" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H16pin">
+			<path fill="#7FC1EC" d="M144.8,124.8c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M149.6,124.8c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="147.2" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I16pin">
+			<path fill="#7FC1EC" d="M144.8,132c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M149.6,132c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="147.2" cy="132" r="1.2"/>
+		</g>
+		<g id="J16pin">
+			<path fill="#7FC1EC" d="M144.8,139.2c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M149.6,139.2c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="147.2" cy="139.2" r="1.2"/>
+		</g>
+		<g id="F17pin">
+			<path fill="#7FC1EC" d="M152,110.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M156.8,110.4c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="154.4" cy="110.4" r="1.2"/>
+		</g>
+		<g id="G17pin">
+			<path fill="#7FC1EC" d="M152,117.6c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M156.8,117.6c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="154.4" cy="117.6" r="1.2"/>
+		</g>
+		<g id="H17pin">
+			<path fill="#7FC1EC" d="M152,124.8c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M156.8,124.8c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="154.4" cy="124.8" r="1.2"/>
+		</g>
+		<g id="I17pin">
+			<path fill="#7FC1EC" d="M152,132c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M156.8,132c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="154.4" cy="132" r="1.2"/>
+		</g>
+		<g id="J17pin">
+			<path fill="#7FC1EC" d="M152,139.2c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4"/>
+			<path fill="#BAE2F0" d="M156.8,139.2c0,1.3-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4l0,0"/>
+			<circle fill="#383938" cx="154.4" cy="139.2" r="1.2"/>
+		</g>
+	</g>
+</g>
+<rect x="7.8" y="-12.6" fill="none" width="154.5" height="43.4"/>
+<text transform="matrix(0 1 -1 0 159.3091 23.7583)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A14</tspan><tspan x="0" y="7.2" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A13</tspan><tspan x="0" y="14.4" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A12</tspan><tspan x="0" y="21.6" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A11</tspan><tspan x="0" y="28.8" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A10</tspan><tspan x="2.2" y="36" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A9</tspan><tspan x="2.2" y="43.2" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A8</tspan><tspan x="2.2" y="50.4" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A7</tspan><tspan x="2.2" y="57.6" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A6</tspan><tspan x="2.2" y="64.8" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A5</tspan><tspan x="2.2" y="72" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A5</tspan><tspan x="2.2" y="79.2" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A3 </tspan><tspan x="2.2" y="86.4" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A2</tspan><tspan x="2.2" y="93.6" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A1</tspan><tspan x="2.2" y="100.8" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A0</tspan><tspan x="-1.8" y="108" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">GND</tspan><tspan x="-1.8" y="115.2" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">GND</tspan><tspan x="2.4" y="122.4" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">3V</tspan><tspan x="2.4" y="129.6" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">3V</tspan><tspan x="2.4" y="136.8" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">3V</tspan></text>
+<rect x="14.9" y="150.6" fill="none" width="147.2" height="36"/>
+<text transform="matrix(0 1 -1 0 159.0435 150.5557)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A15</tspan><tspan x="0" y="7.2" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A16</tspan><tspan x="0" y="14.4" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A17</tspan><tspan x="0" y="21.6" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A18</tspan><tspan x="0" y="28.8" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A19</tspan><tspan x="0" y="36" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A20</tspan><tspan x="0" y="43.2" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A21</tspan><tspan x="0" y="50.4" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A22</tspan><tspan x="0" y="57.6" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A23</tspan><tspan x="0" y="64.8" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A24</tspan><tspan x="0" y="72" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A25</tspan><tspan x="0" y="79.2" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A26</tspan><tspan x="0" y="86.4" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A27</tspan><tspan x="0" y="93.6" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A28</tspan><tspan x="0" y="100.8" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">A29</tspan><tspan x="0" y="108" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">GND</tspan><tspan x="0" y="115.2" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">GND</tspan><tspan x="0" y="122.4" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">3V</tspan><tspan x="0" y="129.6" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">3V</tspan><tspan x="0" y="136.8" fill="#FFFFFF" font-family="'DroidSans-Bold'" font-size="4">3V</tspan></text>
+</svg>
