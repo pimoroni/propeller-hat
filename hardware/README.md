@@ -32,7 +32,7 @@ Propeller HAT is licensed under a Creative Commons Attribution-ShareAlike 4.0 In
 
 All Propeller IO is broken out in the horizontal pin headers. Note: The TX/RX pins, while available to the IC as general purpose IO pins normally, are tied to the GPIO of the Raspberry Pi and thus cannot be used.
 
-Pins A29 and A28 are EEPROM SDA and SCL respectively. A 25LC512-I/P EEPROM is recommended, and will require 10K pullup resistors. Once added, the Propeller will allow uploads to EEPROM and will load its contents upon boot.
+Pins A29 and A28 are EEPROM SDA and SCL respectively. A 24LC512-I/P<sup>1</sup> EEPROM is recommended, and will require 10K pullup resistors. Once added, the Propeller will allow uploads to EEPROM and will load its contents upon boot.
 
 ##Bill Of Materials
 
@@ -60,3 +60,5 @@ Pins A29 and A28 are EEPROM SDA and SCL respectively. A 25LC512-I/P EEPROM is re
 *Speed not supported or recommended.
 
 * [ABLS3 Crystal Oscillator datasheet](/datasheets/Crystal-OSC-ABLS3-25529.pdf)
+
+* <sup>1</sup> http://uk.mouser.com/ProductDetail/Microchip-Technology/24LC512-I-P/?qs=JmwSjbzn2OL8zYUOM6epRw%3D%3D
