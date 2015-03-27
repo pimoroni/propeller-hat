@@ -2,6 +2,8 @@
 
 Propeller HAT, the 8-core microcontroller add-on for your Raspberry Pi.
 
+Available now from Pimoroni: http://shop.pimoroni.com/products/propeller-hat
+
 ![CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
 Propeller HAT is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.: http://creativecommons.org/licenses/by-sa/4.0/
