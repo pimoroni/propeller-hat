@@ -10,8 +10,8 @@ Uploader works as a standalone tool, run with:
 Credits
 =======
 
-Thanks to Remy Black for the original code, released on the Parallax
-forums in 2007. I have taken pains to credit him appropriately.o
+Thanks to Remy Blank for the original code, released on the Parallax
+forums in 2007. I have taken pains to credit him appropriately.
 
 http://forums.parallax.com/showthread.php/90707-Propeller-development-for-non-Windows-users
 
