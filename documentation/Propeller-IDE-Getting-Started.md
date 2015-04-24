@@ -1,5 +1,11 @@
 #Propeller IDE Getting Started
 
+##Update
+
+Propeller IDE 0.30.1 is now available, it includes a new Loader called `propman` which is tweaked and ready to run with Propeller HAT by default. These instructions have been updated to reflect the 0.30.1 install process. Enjoy!
+
+You can find out more about the new Propeller IDE here: https://github.com/parallaxinc/PropellerIDE/releases/tag/0.30.0
+
 ##Preface
 
 Learning to program isn't just about mastering a particular programming language
@@ -65,13 +71,13 @@ It's easier if you grab the right URL, and use the wget command on your
 Raspberry Pi to download it. For example:
 
 ```bash
-wget https://github.com/parallaxinc/PropellerIDE/releases/download/0.25.1/propelleride-0.25.1-0-g5442b03-armhf.deb
+wget https://github.com/parallaxinc/PropellerIDE/releases/download/0.30.1/propelleride-0.30.1-armhf.deb
 ```
 
 Once downloaded, you can install it with:
 
 ```bash
-sudo dpkg -i propelleride-0.25.1-0-g5442b03-armhf.deb
+sudo dpkg -i propelleride-0.30.1-armhf.deb
 ```
 
 ###Turning off the Serial Terminal so you can talk to Propeller HAT
@@ -88,46 +94,25 @@ Then navigate to Advanced Options, find the Serial option and disable it.
 
 ![Raspberry Pi, disable Serial Terminal](images/propeller-ide-serial-terminal.png)
 
-###Making sure p1load can access your Raspberry Pi's GPIO pins
+###Making sure propman can access your Raspberry Pi's GPIO pins
 
-We need p1load to run as root, so it can access the GPIO pin used for resetting Propeller HAT. 
-
-We've whipped up an install script that should get you started. 
-
-First, you'll need to clone this repository if you haven't already:
+We need propman to run as root, so it can access the GPIO pin used for resetting Propeller HAT:
 
 ```bash
-git clone https://github.com/pimoroni/propeller-hat
+sudo chown root:root /usr/bin/propman
+sudo chmod 4755 /usr/bin/propman
 ```
 
-Then cd to software/p1load and run ./install:
+propman defaults to using GPIO pin 17, pulled low when built for the Raspberry Pi, so this is all we need to do. You're good to go! Uploading code is as simple as:
 
 ```bash
-cd propeller-hat/software/p1load
-./install
-```
-
-This will install the latest and greatest P1 Loader, bundled in this repo as a binary, and
-make sure it has the right permissions to do its thing.
-
-p1load defaults to using GPIO pin 17, pulled low when built for the Raspberry Pi, so this is all we need to do. You're good to go! Uploading code is as simple as:
-
-```bash
-p1load my-binary-file.binary
+propman my-binary-file.binary
 ```
 
 And to compile a SPIN file to a binary outside of the IDE, you can:
 
 ```bash
 openspin my-spin-file.spin
-```
-
-###Making /dev/ttyAMA0 show up in Propeller IDE
-
-Until the next release of Propeller IDE you'll also need to apply this temporary fix to get /dev/ttyAMA0 to show up:
-
-```bash
-sudo ln -s /dev/ttyAMA0 /dev/ttyUSB99
 ```
 
 #What next?
