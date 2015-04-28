@@ -43,8 +43,8 @@ release will see the end of these steps.
 First, add the following entries to `/etc/apt/sources.list`.
 
 ```
-deb http://twolife.be/raspbian/ wheezy main backports
-deb-src http://twolife.be/raspbian/ wheezy main backports
+deb http://twolife.be/raspbian/ wheezy backports
+deb-src http://twolife.be/raspbian/ wheezy backports
 ```
 
 Add the repository key.
@@ -57,7 +57,7 @@ And finally update and install Qt5 and its dependencies, plus libftdi1 for the l
 
 ```bash
 sudo apt-get update
-sudo apt-get install qt5-default qt5-qmake libegl1-mesa libgles2-mesa libftdi1
+sudo apt-get install qt5-default qt5-qmake libqt5serialport5 libegl1-mesa libgles2-mesa libftdi1
 ```
 
 ###Installing Propeller IDE
