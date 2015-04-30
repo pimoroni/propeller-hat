@@ -1,3 +1,15 @@
+<!--
+---
+title: Writing your first PASM program
+handle: writing-your-first-pasm-program
+type: tutorial
+summary: A brief introduction to Propeller Assembly, and your first PASM program
+author: Phil Howard
+products: [propeller-hat]
+tags: [Propeller HAT, Raspberry Pi, Microcontroller, PASM, Programming]
+images: [images/tba.png]
+difficulty: Advanced
+-->
 #My First PASM
 
 If you're anything like me, you'll see PASM ( Propeller Assembly ) as a looming challenge, begging to be tackled 
