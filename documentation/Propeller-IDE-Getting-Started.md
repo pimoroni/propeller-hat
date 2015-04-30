@@ -1,3 +1,15 @@
+<!--
+---
+title: Getting started with Propeller IDE
+handle: propeller-ide-getting-started
+type: tutorial
+summary: Learn how to install Propeller IDE, the development environment for Propeller HAT
+author: Phil Howard
+products: [propeller-hat]
+tags: [Propeller HAT, Raspberry Pi, Microcontroller]
+images: [images/tba.png]
+difficulty: Intermediate
+-->
 #Propeller IDE Getting Started
 
 ##Update
