@@ -1,3 +1,15 @@
+<!--
+---
+title: Writing your first SPIN program
+handle: writing-your-first-spin-program
+type: tutorial
+summary: A brief introduction to SPIN, the language of the Propeller, and your first Blink program
+author: Phil Howard
+products: [propeller-hat]
+tags: [Propeller HAT, Raspberry Pi, Microcontroller, SPIN, Programming]
+images: [images/tba.png]
+difficulty: Intermediate
+-->
 #Your first SPIN Program
 
 ###What is SPIN?
