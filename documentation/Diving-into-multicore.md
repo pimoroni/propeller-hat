@@ -1,3 +1,15 @@
+<!--
+---
+title: Multicore SPIN programming on Propeller HAT
+handle: writing-your-first-multi-core-spin-program
+type: tutorial
+summary: Learn how to use the Propeller's multi-core architecture to your advantage
+author: Phil Howard
+products: [propeller-hat]
+tags: [Propeller HAT, Raspberry Pi, Microcontroller, SPIN, Programming]
+images: [images/tba.png]
+difficulty: Intermediate
+-->
 #Diving Into Multicore
 
 You probably didn't pick up Propeller HAT because it was some ordinary, run-of-the-mill Microcontroller board. No siree.
