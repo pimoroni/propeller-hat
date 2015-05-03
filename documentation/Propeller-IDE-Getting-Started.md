@@ -72,6 +72,8 @@ sudo apt-get update
 sudo apt-get install qt5-default qt5-qmake libqt5serialport5 libegl1-mesa libgles2-mesa libftdi1
 ```
 
+Once that is done, you may want to comment out or remove the entries added to sources.list as they are no longer necessary.
+
 ###Installing Propeller IDE
 
 Now, head over to [www.lamestation.com/propelleride/](http://www.lamestation.com/propelleride/) and grab the latest 
