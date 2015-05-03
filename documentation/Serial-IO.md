@@ -66,7 +66,7 @@ Function | 0 | 0 = Direction, 1 = State | 0 = In,Low, 1 = Out,High | Number of p
 * 0b00100001 = Set pin 1 to OUTPUT
 * 0b01100001 = Set pin 1 to HIGH
 
-Pins 30 and 32 are not read or written because these are used for Serial communication.
+Pins 30 and 31 are not read or written because these are used for Serial communication.
 
 ###Request FW version
 
