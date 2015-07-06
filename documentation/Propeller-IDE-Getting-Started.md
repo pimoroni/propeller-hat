@@ -52,11 +52,17 @@ SPIN code absolutely lightning fast- Arduino users will be simply blown away.
 Raspbian needs a little helping hand with some of Propeller IDE's dependencies, but hopefully a future
 release will see the end of these steps.
 
-First, add the following entries to `/etc/apt/sources.list`.
+First, you'll need to install the `apt-transport-https` package for apt:
 
 ```
-deb http://twolife.be/raspbian/ wheezy backports
-deb-src http://twolife.be/raspbian/ wheezy backports
+sudo apt-get install apt-transport-https
+```
+
+Next, add the following entries to `/etc/apt/sources.list` ( Note the "https://" and the lack of "main" ):
+
+```
+deb https://twolife.be/raspbian/ wheezy backports
+deb-src https://twolife.be/raspbian/ wheezy backports
 ```
 
 Add the repository key.
@@ -72,7 +78,12 @@ sudo apt-get update
 sudo apt-get install qt5-default qt5-qmake libqt5serialport5 libegl1-mesa libgles2-mesa libftdi1
 ```
 
-Once that is done, you may want to comment out or remove the entries added to sources.list as they are no longer necessary.
+Once that is done, you may want to comment out or remove the entries added to sources.list as they are no longer necessary. To do this, simply place a `#` before them, like so:
+
+```
+#deb https://twolife.be/raspbian/ wheezy backports
+#deb-src https://twolife.be/raspbian/ wheezy backports
+```
 
 ###Installing Propeller IDE
 
