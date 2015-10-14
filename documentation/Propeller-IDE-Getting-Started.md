@@ -12,6 +12,18 @@ difficulty: Intermediate
 -->
 #Propeller IDE Getting Started
 
+##Raspbian Jessie
+
+With the [release of Raspbian Jessie](https://www.raspberrypi.org/downloads/raspbian/), Qt5.3 is available without having to mess about with adding new sources and installing things from backports. If you're using Raspbian Jessie then just:
+
+* Download the latest Propeller IDE from: http://developer.parallax.com/projects/propelleride/
+* Install with: `sudo dpkg -i propelleride-*`
+* Install dependencies with `sudo apt-get install -f`
+
+That's it!
+
+**Note: At time of writing I've been having trouble with Jessie and GPIO-based reset. As a temporary fix you can run the following before each upload attempt: `echo 17 > /sys/class/gpio/export`**
+
 ##Update
 
 Propeller IDE 0.30.1 is now available, it includes a new Loader called `propman` which is tweaked and ready to run with Propeller HAT by default. These instructions have been updated to reflect the 0.30.1 install process. Enjoy!
