@@ -99,7 +99,7 @@ Once that is done, you may want to comment out or remove the entries added to so
 
 ###Installing Propeller IDE
 
-Now, head over to [www.lamestation.com/propelleride/](http://www.lamestation.com/propelleride/) and grab the latest 
+Now, head over to [developer.parallax.com/projects/propelleride/](http://developer.parallax.com/projects/propelleride/) and grab the latest 
 version of Propeller IDE for the Raspberry Pi.
 
 ![Propeller IDE download](images/propeller-ide-download.png)
@@ -108,13 +108,13 @@ It's easier if you grab the right URL, and use the wget command on your
 Raspberry Pi to download it. For example:
 
 ```bash
-wget https://github.com/parallaxinc/PropellerIDE/releases/download/0.30.1/propelleride-0.30.1-armhf.deb
+wget https://github.com/parallaxinc/PropellerIDE/releases/download/0.32.0/propelleride-0.32.0-armhf.deb
 ```
 
 Once downloaded, you can install it with:
 
 ```bash
-sudo dpkg -i propelleride-0.30.1-armhf.deb
+sudo dpkg -i propelleride-0.32.0-armhf.deb
 ```
 
 ###Turning off the Serial Terminal so you can talk to Propeller HAT
