@@ -22,6 +22,8 @@ With the [release of Raspbian Jessie](https://www.raspberrypi.org/downloads/rasp
 
 That's it!
 
+**Note: As of Jan 2016 I've had trouble with the loader in version 0.34.4, I recommend trying version 0.33.3 instead.**
+
 **Note: At time of writing I've been having trouble with Jessie and GPIO-based reset. As a temporary fix you can run the following before each upload attempt: `echo 17 > /sys/class/gpio/export`**
 
 ##Update
