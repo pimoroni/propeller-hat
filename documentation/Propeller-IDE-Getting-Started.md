@@ -26,9 +26,9 @@ That's it!
 
 ##Update
 
-Propeller IDE 0.34.4 is now available. These instructions have been updated to reflect the 0.34.4 install process. Enjoy!
+Propeller IDE 0.33.3 is the latest recommended build ( I've had problems with PropellerManager in 0.34.4 ). These instructions have been updated to reflect the 0.33.3 install process. Enjoy!
 
-You can find out more about the new Propeller IDE here: https://github.com/parallaxinc/PropellerIDE/releases/tag/0.34.4
+You can find out more about the new Propeller IDE here: https://github.com/parallaxinc/PropellerIDE/releases/tag/0.33.3
 
 ##Preface
 
@@ -110,13 +110,13 @@ It's easier if you grab the right URL, and use the wget command on your
 Raspberry Pi to download it. For example:
 
 ```bash
-wget https://github.com/parallaxinc/PropellerIDE/releases/download/0.34.4/propelleride-0.34.4-armhf.deb
+wget https://github.com/parallaxinc/PropellerIDE/releases/download/0.33.3/propelleride-0.33.3-armhf.deb
 ```
 
 Once downloaded, you can install it with:
 
 ```bash
-sudo dpkg -i propelleride-0.34.4-armhf.deb
+sudo dpkg -i propelleride-0.33.3-armhf.deb
 ```
 
 ###Turning off the Serial Terminal so you can talk to Propeller HAT
