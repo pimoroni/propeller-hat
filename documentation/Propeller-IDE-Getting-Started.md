@@ -16,7 +16,7 @@ difficulty: Intermediate
 
 With the [release of Raspbian Jessie](https://www.raspberrypi.org/downloads/raspbian/), Qt5.3 is available without having to mess about with adding new sources and installing things from backports. If you're using Raspbian Jessie then just:
 
-* Download the latest Propeller IDE from: http://developer.parallax.com/projects/propelleride/
+* Download the latest Propeller IDE from: http://developer.parallax.com/propelleride/
 * Install with: `sudo dpkg -i propelleride-*`
 * Install dependencies with `sudo apt-get install -f`
 
@@ -26,9 +26,9 @@ That's it!
 
 ##Update
 
-Propeller IDE 0.30.1 is now available, it includes a new Loader called `propman` which is tweaked and ready to run with Propeller HAT by default. These instructions have been updated to reflect the 0.30.1 install process. Enjoy!
+Propeller IDE 0.34.4 is now available. These instructions have been updated to reflect the 0.34.4 install process. Enjoy!
 
-You can find out more about the new Propeller IDE here: https://github.com/parallaxinc/PropellerIDE/releases/tag/0.30.0
+You can find out more about the new Propeller IDE here: https://github.com/parallaxinc/PropellerIDE/releases/tag/0.34.4
 
 ##Preface
 
@@ -61,7 +61,9 @@ SPIN code absolutely lightning fast- Arduino users will be simply blown away.
 
 ###Installing Pre-requisites
 
-Raspbian needs a little helping hand with some of Propeller IDE's dependencies, but hopefully a future
+If you're running Raspbian Jessie, please skip to Installing Propeller IDE below.
+
+Raspbian Wheezy needs a little helping hand with some of Propeller IDE's dependencies, but hopefully a future
 release will see the end of these steps.
 
 First, you'll need to install the `apt-transport-https` package for apt:
@@ -99,7 +101,7 @@ Once that is done, you may want to comment out or remove the entries added to so
 
 ###Installing Propeller IDE
 
-Now, head over to [developer.parallax.com/projects/propelleride/](http://developer.parallax.com/projects/propelleride/) and grab the latest 
+Now, head over to [developer.parallax.com/propelleride/](http://developer.parallax.com/propelleride/) and grab the latest 
 version of Propeller IDE for the Raspberry Pi.
 
 ![Propeller IDE download](images/propeller-ide-download.png)
@@ -108,13 +110,13 @@ It's easier if you grab the right URL, and use the wget command on your
 Raspberry Pi to download it. For example:
 
 ```bash
-wget https://github.com/parallaxinc/PropellerIDE/releases/download/0.32.0/propelleride-0.32.0-armhf.deb
+wget https://github.com/parallaxinc/PropellerIDE/releases/download/0.34.4/propelleride-0.34.4-armhf.deb
 ```
 
 Once downloaded, you can install it with:
 
 ```bash
-sudo dpkg -i propelleride-0.32.0-armhf.deb
+sudo dpkg -i propelleride-0.34.4-armhf.deb
 ```
 
 ###Turning off the Serial Terminal so you can talk to Propeller HAT
