@@ -12,6 +12,14 @@ difficulty: Intermediate
 -->
 #Propeller IDE Getting Started
 
+##Raspberry Pi 3
+
+The Raspberry Pi 3 does strange things with Serial for the benefit of Bluetooth. Unfortunately this completely trounces `propman` and any other Propeller HAT loader. You can fix it by making sure your Pi 3 is up-to-date ( `sudo apt-get update && sudo apt-get upgrade` ) then edit `/boot/config.txt` and adding the line:
+
+```
+dtoverlay=pi3-miniuart-bt
+```
+
 ##Raspbian Jessie
 
 With the [release of Raspbian Jessie](https://www.raspberrypi.org/downloads/raspbian/), Qt5.3 is available without having to mess about with adding new sources and installing things from backports. If you're using Raspbian Jessie then just:
@@ -22,15 +30,11 @@ With the [release of Raspbian Jessie](https://www.raspberrypi.org/downloads/rasp
 
 That's it!
 
-**Note: As of Jan 2016 I've had trouble with the loader in version 0.34.4, I recommend trying version 0.33.3 instead.**
-
-**Note: At time of writing I've been having trouble with Jessie and GPIO-based reset. As a temporary fix you can run the following before each upload attempt: `echo 17 > /sys/class/gpio/export`**
-
 ##Update
 
-Propeller IDE 0.33.3 is the latest recommended build ( I've had problems with PropellerManager in 0.34.4 ). These instructions have been updated to reflect the 0.33.3 install process. Enjoy!
+Propeller IDE 0.36.7 is the latest recommended build. These instructions have been updated to reflect the 0.36.7 install process. Enjoy!
 
-You can find out more about the new Propeller IDE here: https://github.com/parallaxinc/PropellerIDE/releases/tag/0.33.3
+You can find out more about the new Propeller IDE here: https://github.com/parallaxinc/PropellerIDE/releases/tag/0.36.7
 
 ##Preface
 
@@ -61,7 +65,7 @@ SPIN code absolutely lightning fast- Arduino users will be simply blown away.
 
 ##First Steps
 
-###Installing Pre-requisites
+###Installing Pre-requisites ( Raspbian Wheezy only )
 
 If you're running Raspbian Jessie, please skip to Installing Propeller IDE below.
 
@@ -112,13 +116,13 @@ It's easier if you grab the right URL, and use the wget command on your
 Raspberry Pi to download it. For example:
 
 ```bash
-wget https://github.com/parallaxinc/PropellerIDE/releases/download/0.33.3/propelleride-0.33.3-armhf.deb
+wget https://github.com/parallaxinc/PropellerIDE/releases/download/0.36.7/propelleride-0.36.7-armhf.deb
 ```
 
 Once downloaded, you can install it with:
 
 ```bash
-sudo dpkg -i propelleride-0.33.3-armhf.deb
+sudo dpkg -i propelleride-0.36.7-armhf.deb
 ```
 
 ###Turning off the Serial Terminal so you can talk to Propeller HAT
@@ -137,7 +141,7 @@ Then navigate to Advanced Options, find the Serial option and disable it.
 
 ###Making sure propman can access your Raspberry Pi's GPIO pins
 
-We need propman to run as root, so it can access the GPIO pin used for resetting Propeller HAT:
+On Wheezy we need propman to run as root, so it can access the GPIO pin used for resetting Propeller HAT:
 
 ```bash
 sudo chown root:root /usr/bin/propman
