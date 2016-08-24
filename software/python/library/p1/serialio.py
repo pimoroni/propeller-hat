@@ -1,7 +1,13 @@
-import serial
 import atexit
-import p1.loader
 import threading
+
+try:
+    import serial
+except ImportError:
+    exit("This library requires the serial module\nInstall with: sudo pip install pyserial")
+
+import p1.loader
+
 
 class StoppableThread(threading.Thread):
     """Basic Stoppable Thread Wrapper
