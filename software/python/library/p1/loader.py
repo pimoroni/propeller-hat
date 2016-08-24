@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+
 """Parallax Propeller code uploader
 Copyright (C) 2007 Remy Blank
 
@@ -30,12 +31,16 @@ I have also extensively commented appropriate areas and attempted
 to explain in sufficient detail the workings of the protocol.
 """
 
-import optparse
-import os
-import time
-import serial
 import glob
+import os
 import sys
+import time
+
+try:
+    import serial
+except ImportError:
+    exit("This library requires the serial module\nInstall with: sudo pip install pyserial")
+
 
 # Processor constants
 LFSR_REQUEST_LEN   = 250
