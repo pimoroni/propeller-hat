@@ -1,0 +1,6 @@
+README
+
+Propeller HAT brings the 8-core Parallax Propeller microcontroller to the Raspberry Pi. You can program and talk to it over Serial using the Propeller IDE.
+
+Learn more: https://shop.pimoroni.com/products/propeller-hat
+For examples run: `curl -sS get.pimoroni.com/propellerhat | bash`

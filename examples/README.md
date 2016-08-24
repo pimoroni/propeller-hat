@@ -8,8 +8,8 @@ To upload one to your Propeller HAT you must first compile it into a binary, lik
 openspin Diving-into-multicore.spin
 ```
 
-Then you can load it with p1load, like so:
+Then you can load it with propman, like so:
 
 ```bash
-p1load Diving-into-multicore.binary
+propman Diving-into-multicore.binary
 ```

@@ -1,0 +1,29 @@
+Source: p1
+Maintainer: Phil Howard <phil@pimoroni.com>
+Homepage: https://github.com/pimoroni/propeller-hat
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 9.0.0), dh-python, python-all (>= 2.7), python-setuptools, python3-all (>= 3.4), python3-setuptools
+Standards-Version: 3.9.6
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.4
+
+Package: python-propeller
+Architecture: all
+Section: python
+Depends: ${misc:Depends}, ${python:Depends}, python-rpi.gpio, python-serial (>= 2.6)
+Description: python library for uploading code to Propeller HAT
+ Propeller HAT brings the 8-core Parallax Propeller microcontroller
+ to the Raspberry Pi.
+ .
+ This is the Python 2 version of the package.
+
+Package: python3-propeller
+Architecture: all
+Section: python
+Depends: ${misc:Depends}, ${python3:Depends}, python3-rpi.gpio, python3-serial (>= 2.6)
+Description: python library for uploading code to Propeller HAT
+ Propeller HAT brings the 8-core Parallax Propeller microcontroller
+ to the Raspberry Pi.
+ .
+ This is the Python 3 version of the package.

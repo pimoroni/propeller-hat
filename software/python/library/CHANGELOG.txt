@@ -1,4 +1,5 @@
 1.0.1
 -----
 
-Ready for Propeller HAT launch.
+* Ready for Propeller HAT launch
+

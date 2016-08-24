@@ -1,8 +1,15 @@
 #!/usr/bin/env python
-import serial
-import time
+
 import sys
+import time
+
+try:
+    import serial
+except ImportError:
+    exit("This library requires the serial module\nInstall with: sudo pip install pyserial")
+
 import p1.loader
+
 
 print('Setting up Propeller HAT')
 l = p1.loader.Loader('/dev/ttyAMA0',17)

@@ -1,11 +1,16 @@
 #p1load
 
-This is the Propeller Loader built for Raspberry Pi and bundled
-with an install script which will get it up and running with
-PropellerIDE without any fiddling, scripts or hassle!
+p1load has now been superseded by propman, which is installed by the Propeller IDE since version 0.30.0
 
-Simply run:
+There is therefore little reason to use p1load as an alternative. However, it is kept in this repository in case it could be useful to users who must stick to using an older version of the IDE, or prefer not to install the IDE or compile propman from source.
 
-    ./install
+To use, simply run:
 
-After installing PropellerIDE, and you're good to go!
+```bash
+./install
+```
+then:
+
+```bash
+p1load binary_file.binary
+```
