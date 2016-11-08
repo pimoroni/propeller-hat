@@ -1,4 +1,5 @@
 import struct
+from sys import exit
 
 try:
     import serial
