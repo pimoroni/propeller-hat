@@ -39,7 +39,7 @@ import time
 try:
     import serial
 except ImportError:
-    exit("This library requires the serial module\nInstall with: sudo pip install pyserial")
+    sys.exit("This library requires the serial module\nInstall with: sudo pip install pyserial")
 
 
 # Processor constants
@@ -195,7 +195,7 @@ class Loader(object):
         if self.reset_gpio > -1 and not self.GPIO == None:
             self.GPIO.output(self.reset_gpio, self.GPIO.LOW)
             time.sleep(0.025)
-	    self.GPIO.output(self.reset_gpio, self.GPIO.HIGH)
+            self.GPIO.output(self.reset_gpio, self.GPIO.HIGH)
             time.sleep(0.090)
         else:
             self.serial.setDTR(1)
@@ -250,14 +250,14 @@ class Loader(object):
         self.reset()
         self._calibrate()
         seq = []
-	
+    
         # Prime the LFSR sequence with 500 values. LFSR wraps at 256
         for (i, value) in zip(range(LFSR_REQUEST_LEN + LFSR_REPLY_LEN), self._lfsr(LFSR_SEED)):
             seq.append(value)
 
         # Send the first 250 values from the LFSR
         self.serial.write("".join(chr(each | 0xfe) for each in seq[0:LFSR_REQUEST_LEN]))
-	
+    
         # Send 258 templates to "clock" the return values back to us
         # These are 250 bits of LFSR respone, plus
         # 8 bits denoting the Propeller version

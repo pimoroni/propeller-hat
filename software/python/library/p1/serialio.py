@@ -1,5 +1,6 @@
 import atexit
 import threading
+from sys import exit
 
 try:
     import serial
