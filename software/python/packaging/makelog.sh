@@ -72,7 +72,7 @@ for sibling in ${sibname[@]}; do
         sed -i "s/__version__ = '[0-9].[0-9].[0-9]'/__version__ = '$version'/" "$libdir/$sibling.py"
         inform "touched up version in $sibling.py"
     elif grep -e "__version__" "$libdir/$sibling/__init__.py" &> /dev/null; then
-        sed -i "s/__version__ = '[0-9].[0-9].[0-9]/__version__ = '$version/" "$libdir/$sibling/__init__.py"
+        sed -i "s/__version__ = '[0-9].[0-9].[0-9]'/__version__ = '$version'/" "$libdir/$sibling/__init__.py"
         inform "touched up version in $sibling/__init__.py"
     elif [ "$versionwarn" == "yes" ]; then
         warning "couldn't touch up __version__ in $sibling, no match found"
