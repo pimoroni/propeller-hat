@@ -49,5 +49,5 @@ setup(
     url             = 'http://www.pimoroni.com',
     classifiers     = classifiers,
     packages        = ['p1'],
-    install_requires= ['RPi.GPIO >= 1.0.1','pyserial >= 2.6']
+    install_requires= ['RPi.GPIO >= 0.5.5','pyserial >= 2.6']
 )

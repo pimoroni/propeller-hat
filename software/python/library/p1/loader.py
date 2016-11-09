@@ -195,7 +195,7 @@ class Loader(object):
         if self.reset_gpio > -1 and not self.GPIO == None:
             self.GPIO.output(self.reset_gpio, self.GPIO.LOW)
             time.sleep(0.025)
-        self.GPIO.output(self.reset_gpio, self.GPIO.HIGH)
+            self.GPIO.output(self.reset_gpio, self.GPIO.HIGH)
             time.sleep(0.090)
         else:
             self.serial.setDTR(1)
