@@ -59,6 +59,12 @@ Once downloaded, you can install it with:
 sudo dpkg -i propelleride-0.36.7-armhf.deb
 ```
 
+###Documentaton & Support
+
+* Tutorials - https://learn.pimoroni.com/propeller-hat
+* GPIO Pinout - https://pinout.xyz/pinout/propeller_hat
+* Get help - http://forums.pimoroni.com/c/support
+
 ###Repository Contents
 
 ###Documentation
