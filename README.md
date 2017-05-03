@@ -8,7 +8,7 @@ Available now from Pimoroni: http://shop.pimoroni.com/products/propeller-hat
 
 Propeller HAT is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.: http://creativecommons.org/licenses/by-sa/4.0/
 
-###Features
+### Features
 
 * 8-core Parallax Microcontroller on-board
 * 30 IO pins broken out, serial data/programming connection to Pi
@@ -17,7 +17,7 @@ Propeller HAT is licensed under a Creative Commons Attribution-ShareAlike 4.0 In
 * Python quick start library with PWM/Servo and GPIO libraries
 
 
-###Getting started
+### Getting started
 
 For instant-gratification you can try the Propeller HAT IO libraries:
 
@@ -29,7 +29,7 @@ You'll need Propeller IDE to start programming your Propeller HAT:
 
 * [Propeller IDE Getting Started](/documentation/Propeller-IDE-Getting-Started.md)
 
-##Propeller IDE Installation
+## Propeller IDE Installation
 
 As always, we've made it super-easy for you to get all the software you need with a nifty one-line installer. To run it fire up Terminal which you'll find in Menu -> Accessories -> Terminal on your Raspberry Pi desktop like so:
 
@@ -59,21 +59,21 @@ Once downloaded, you can install it with:
 sudo dpkg -i propelleride-0.36.7-armhf.deb
 ```
 
-###Documentaton & Support
+### Documentaton & Support
 
 * Tutorials - https://learn.pimoroni.com/propeller-hat
 * GPIO Pinout - https://pinout.xyz/pinout/propeller_hat
 * Get help - http://forums.pimoroni.com/c/support
 
-###Repository Contents
+### Repository Contents
 
-###Documentation
+#### Documentation
 
 Everything you need to get started with Propeller IDE and your first
 SPIN program.
 
 
-####Software
+#### Software
 
 Suport software and Python-based uploader tool.
 
@@ -82,6 +82,6 @@ Suport software and Python-based uploader tool.
 * p1load - Installer and binary for Pi-compatible p1load
 
 
-####Datasheets
+#### Datasheets
 
 Datasheets for Parallax Propeller and Crystal Oscillator.
